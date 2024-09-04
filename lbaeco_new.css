@@ -1,0 +1,180 @@
+.default-style { font-family: verdana, arial, helvetica, sans serif; font-size: 9pt; line-height: 120%}
+
+.default-style_g { font-family: verdana, arial, helvetica, sans serif; color: #666666; font-size: 9pt; line-height: 120%}
+
+.default-wide { font-family: verdana, arial, helvetica, sans serif; font-size: 9pt; line-height: 160%}
+
+.default-wide_g { font-family: verdana, arial, helvetica, sans serif; color: #666666; font-size: 9pt; line-height: 160%}
+
+.pageheader { font-family: times, times new roman, serif; font-size: 18pt; font-weight: bold; color: #008000 }
+
+.pageheader_10 { font-family: times, times new roman, serif; font-size: 18pt; font-weight: bold; color: #666666 }
+
+.pageheader_white { font-family: times, times new roman, serif; font-size: 18pt; font-weight: bold; color: #FFFFFF }
+
+.side-bar { font-family: verdana, arial, helvetica, sans serif; font-size: 8pt } 
+
+.pathmenu {font-family: verdana, arial, helvetica, sans serif; font-size: 8pt }
+
+.rss {font-family: verdana, arial, helvetica, sans serif; font-size: 7pt }
+
+body, td, p, div { font-family: verdana, arial, helvetica, sans serif; font-size: 9pt }
+
+.welcomesign { font-family: times, times new roman, serif; font-size: 14pt; font-weight: bold; color: #008000 } 
+
+.sectionheader { font-family: verdana, arial, helvetica, sans serif; font-size: 11pt; line-height: 120%}
+
+.abstractheader { font-family: verdana, arial, helvetica, sans serif; font-weight: bold; font-size: 11pt } 
+
+.pageheader_conf { font-family: times, times new roman, serif; font-size: 18pt; font-weight: bold; color: #3366CC }
+
+.bsb_adj_phd_conf { font-family: times, times new roman, serif; font-size: 18pt; font-weight: bold}
+
+.bsb_adj_default-style { font-family: verdana, arial, helvetica, sans serif; font-size: 9pt}
+
+.pageheader_b { font-family: times, times new roman, serif; font-size: 18pt; font-weight: bold}
+
+.default-style_w { font-family: verdana, arial, helvetica, sans serif; font-size: 9pt ; font-weight: bold; color: #FFFFFF}
+
+.side-bar_g { font-family: verdana, arial, helvetica, sans serif; font-size: 8pt; color: #CCCCCC } 
+
+.meeting12_hdg {font-family: verdana, arial, helvetica, san sefif; font-size: 8pt; color: #666666 }
+
+.abstractheader_g { font-family: verdana, arial, helvetica, sans serif; font-size: 11pt; color: #999999 } 
+
+.abstractheader_dkg { font-family: verdana, arial, helvetica, sans serif; font-size: 11pt; color: #666666 } 
+
+.nacp { 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: xx-small; 
+color: #FFFFFF}
+.syn
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%; 
+	font-weight: normal;
+	margin-left: 30;
+	margin-right: 5;
+	line-height: 115%}
+	
+.navtxt
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%; 
+	font-weight: bold;
+	margin-left: 10;
+	margin-right: 5;
+	line-height: 110%;
+	}
+	
+.navhdr
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%; 
+	font-color: yellow; 
+	font-weight: bold;
+	margin-left: 5;
+	margin-right: 5;
+	line-height: 95%;
+	}
+	
+.p3_navtxt 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 8pt;
+color: #333333; 
+} 	
+.p3_navarrow 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 6pt;
+color: #272776;  
+} 
+.p3_navmore 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 8pt; 
+color: #333399; 
+} 
+
+.p3_navtitle 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 9pt;
+color: #333399; 
+font-weight: bold;
+ } 
+ 
+ .p3_navtitle_on 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 9pt;
+color: #000000; 
+font-weight: bold;
+ } 
+ 
+ .p3_pagehdr { 
+ font-family: times, times new roman, serif; 
+ font-size: 18pt; 
+ font-weight: bold; 
+ color: #333399;
+ line-height: 160%; 
+ }	
+
+
+A:link 
+{text-decoration: none;}
+A:visited
+{text-decoration: none;}
+A:active
+{text-decoration:underline;}
+A:hover
+{text-decoration:underline;}
+	 
+.p3_tblhdr 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 9pt;
+color: #336600;
+ font-weight: bold; 
+} 	
+.p3_tbltxt 
+{ 
+font-family: verdana, Arial, Helvetica, sans-serif;
+font-size: 9pt;
+line-height: 120%;
+} 	
+.p3_tblsm 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 8pt;
+line-height: 120%;
+}
+
+.p3_navtxt_on 
+{ 
+font-family: verdana, arial, helvetica, sans serif;
+font-size: 8pt;
+color:#000000;
+font-weight: bold;
+}
+.bullet {
+	font-family: verdana, arial, helvetica, sans serif;
+    font-size: 8pt;
+    line-height: 120%;
+    list-style-position: outside;
+	list-style-image: url(/lbaeco/images/arrows.gif);
+	list-style-type: none;
+	margin-left: -25px;
+}
+.p3_caption {
+	font-family: verdana, arial, helvetica, "sans serif";
+	font-size: 7pt;
+	line-height: 100%;
+	color: #666666;
+	font-style: italic;
+}
+
+/* Increase font size of notice. DM Wright ORNL DAAC 101514 */
+body > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td { font-size: 13pt; }
+

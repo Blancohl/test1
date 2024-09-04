@@ -1,0 +1,754 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" > 
+<HTML><!-- InstanceBegin template="../../Templates/main_template_archive.dwt" codeOutsideHTMLIsLocked="false" --><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 2010 08:21:57 GMT" />
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Expires" content="0">
+<!-- InstanceBeginEditable name="doctitle" -->
+<TITLE>LBA-ECO</TITLE>
+<style type="text/css">
+<!--
+
+-->
+</style>
+<style type="text/css">
+<!--
+.style2 {color: #9966FF}
+-->
+</style>
+<style type="text/css">
+<!--
+.style11 {color: #FFFF66}
+-->
+</style>
+<style type="text/css">
+<!--
+.style13 {color: #3939AC}
+-->
+</style>
+<style type="text/css">
+<!--
+.style14 {color: #660066}
+-->
+</style>
+<style type="text/css">
+<!--
+.style15 {font-weight: bold}
+-->
+</style>
+<style type="text/css">
+<!--
+.style16 {color: #003300}
+-->
+</style>
+<style type="text/css">
+<!--
+.style17 {color: #000000}
+-->
+</style>
+<style type="text/css">
+<!--
+.style18 {font-weight: bold}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<meta name="orgcode" content="614.4">
+<meta name="description" content="Resource for LBA-ECO participants of the Large-Scale Biosphere Atmosphere Experiment in Amazonia">
+<META NAME="keywords" CONTENT="ecology, amazon, brazil, south america, amazon river, rainforest, earth science, science news, environment, global change">
+<meta name="rno" content="Kenneth.J.Ranson.1" >
+<meta name="content-owner" content="Elizabeth.S.Nelson.1" >
+<meta name="webmaster" content="Elizabeth.S.Nelson.1" >
+<link href="../../lbaeco_new.css" rel="stylesheet" type="text/css">
+
+<!--cachestuff -->
+
+<!--endcachestuff -->
+<!--<script language="JavaScript" src="../../javascript/ocdnm=eco_banner~html.js"></script>-->
+<!--<script language="JavaScript" src="../../javascript/path_menu.js"></script> -->
+<!--<script language="JavaScript" src="../../javascript/utilities.js"></script>-->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		banner_p3_up_22_banner_p3_up_31_over = newImage("../../images/banner_p3_up_22-banner_p3_u.gif");
+		banner_p3_up_23_banner_p3_up_31_over = newImage("../../images/banner_p3_up_23-banner_p3_u.gif");
+		banner_p3_up_23_banner_p3_up_32_over = newImage("../../images/banner_p3_up_23-banner_p-26.gif");
+		banner_p3_up_24_banner_p3_up_31_over = newImage("../../images/banner_p3_up_24-banner_p3_u.gif");
+		banner_p3_up_24_banner_p3_up_32_over = newImage("../../images/banner_p3_up_24-banner_p-29.gif");
+		banner_p3_up_25_banner_p3_up_31_over = newImage("../../images/banner_p3_up_25-banner_p3_u.gif");
+		banner_p3_up_25_banner_p3_up_32_over = newImage("../../images/banner_p3_up_25-banner_p-32.gif");
+		banner_p3_up_26_banner_p3_up_32_over = newImage("../../images/banner_p3_up_26-banner_p-35.gif");
+		banner_p3_up_27_banner_p3_up_31_over = newImage("../../images/banner_p3_up_27-banner_p3_u.gif");
+		banner_p3_up_27_banner_p3_up_32_over = newImage("../../images/banner_p3_up_27-banner_p-38.gif");
+		banner_p3_up_28_banner_p3_up_31_over = newImage("../../images/banner_p3_up_28-banner_p3_u.gif");
+		banner_p3_up_29_banner_p3_up_31_over = newImage("../../images/banner_p3_up_29-banner_p3_u.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function menuOn(menuItem) {
+ var element = document.getElementById(menuItem);
+ if (menuItem.substring(0,1) == "T") {
+    element.setAttribute("src",element.src.replace("_reg_","_over_"));
+ }  else {
+    element.setAttribute("class",element.getAttribute("class") + "_on");
+    var pat = /^\d+$/;
+    if (menuItem.substring(menuItem.length-1,menuItem.length).search(pat)==-1) {
+       // is a sub side menu so do image change as well
+       var imageItem = "i" + menuItem;
+       var ielement = document.getElementById(imageItem);
+       ielement.setAttribute("src",ielement.src.replace("spacer_trans","arrow_y"));
+       // do parent side menu change too!
+       var parentItem = menuItem.substring(0,2);
+       var pelement = document.getElementById(parentItem);
+       pelement.setAttribute("class",pelement.getAttribute("class") + "_on");
+    }
+ }
+ //document[imgName].src=eval(imgName + "_on.src");
+ //newbg = bg.substring(0, bg.indexOf(".gif")) + "_on.gif";
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<!-- End Preload Script -->
+</HEAD>
+<BODY  bgcolor="#FFFFFF" MM_preloadImages('../../images/banner_p3_down_08.gif/buttons/buttons_over_14.gif/buttons_over_15.gif/buttons_over_16.gif/buttons_over_17.gif/buttons_over_18.gif/buttons_over_search.gif')>
+
+<table width="1033" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1033" valign="top">
+      <!-- InstanceBeginEditable name="Path Menu Nickname" --><script language="JavaScript">current_Item = "T1";</script><!-- InstanceEndEditable -->
+      <!--<script language="JavaScript1.2">mmLoadMenus();</script>-->
+      <table width="765" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="765"top">
+            <table width=765 border=0 cellpadding=0 cellspacing=0 bgcolor="#EFF7E8">
+              <tr>
+                <td height=14 colspan="7" bgcolor="#FFFF99"><h5>NOTICE -- The LBA-ECO Project website is no longer being  supported.&nbsp; This archive is a snapshot, as it existed in 2013, of the  LBA-ECO website, maintained by NASA Goddard Space Flight Center, and now archived  at the ORNL DAAC.&nbsp; Links to external websites may be inactive. Final data products from the LBA project can be found at the <a href="http://daac.ornl.gov/LBA/lba.shtml" title="ORNL DAAC" target="_blank">ORNL DAAC</a>.</h5></td>
+              </tr>
+              <tr>
+                <td height=14 colspan="6" bgcolor="#FFFFFF"></td>
+                <td width="156" valign="bottom"> <img src="../../images/images/banner_p3_up_07.gif" alt="banner" width=156 height=14></td>
+              </tr>
+              <tr>
+                <td width="164" valign="bottom" bgcolor="#000000"></td>
+                <td width="74" valign="bottom"> <img src="../../images/images/banner_p3_up_09.gif"  alt="banner" width=74 height=18></td>
+                <td width="130" valign="bottom"> <img src="../../images/images/banner_p3_up_10.gif"  alt="banner" width=130 height=18></td>
+                <td width="61" valign="bottom"> <img src="../../images/images/banner_p3_up_11.gif" alt="banner"  width=61 height=18></td>
+                <td width="91" valign="bottom"> <img src="../../images/images/banner_p3_up_12.gif"  alt="banner" width=91 height=18></td>
+                <td width="90" valign="bottom"> <img src="../../images/images/banner_p3_up_13.gif"  alt="banner" width=89 height=18></td>
+                <td valign="bottom"> <img src="../../images/images/banner_p3_up_14.gif"  alt="banner" width=156 height=18></td>
+              </tr>
+              <tr>
+                <td><img src="../../images/images/banner_p3_up_15.gif" alt="banner" width=164 height=82></td>
+                <td> <img src="../../images/images/banner_p3_up_16.gif" alt="banner" width=74 height=82></td>
+                <td> <img src="../../images/images/banner_p3_up_17.gif" alt="banner" width=130 height=82></td>
+                <td> <img src="../../images/images/banner_p3_up_18.gif" alt="banner" width=61 height=82></td>
+                <td> <img src="../../images/images/banner_p3_up_19.gif" alt="banner" width=91 height=82></td>
+                <td> <img src="../../images/images/banner_p3_up_20.gif" alt="banner" width=89 height=82></td>
+                <td> <img src="../../images/images/banner_p3_up_21.gif" alt="banner" width=156 height=82></td>
+              </tr>
+              <tr>
+                <td bgcolor="#000000"> </td>
+                <td><a href="../../index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','../../images/buttons/buttons_over_14.gif',1)"><img src="../../images/buttons/buttons_reg_14.gif" alt="home" id="T1" name="home" width="74" height="19" border="0"></a></td>
+                <td colspan="4"><a href="../../about.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about','','../../images/buttons/buttons_over_15.gif',1)"><img src="../../images/buttons/buttons_reg_15.gif" alt="about" id="T2" name="about" width="80" height="19" border="0"></a><a href="../../lib.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('library','','../../images/buttons/buttons_over_16.gif',1)"><img src="../../images/buttons/buttons_reg_16.gif" alt="library" id="T3" name="library" width="89" height="19" border="0"></a><a href="../../new.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('new','','../../images/buttons/buttons_over_17.gif',1)"><img src="../../images/buttons/buttons_reg_17.gif" alt="news archive" id="T4" name="new" width="106" height="19" border="0"></a><a href="../../cont.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contacts','','../../images/buttons/buttons_over_18.gif',1)"><img src="../../images/buttons/buttons_reg_18.gif" alt="contacts" id="T5" name="contacts" width="96" height="19" border="0"></a></td>
+                <td> <img src="../../images/images/banner_p3_up_28.gif" alt="banner" name="banner_p3_up_28" width=156 height=20></td>
+              </tr>
+              <tr>
+                <td height="26" bgcolor="#99CC66"><br>
+                    <img border="0" src="../../images/spacer_trans.gif" alt="spacer" width="164" height="8"><br>
+                </td>
+                <td colspan="5" bgcolor="#EFF7E8" align="right">
+                </td>
+                <td valign="top"><img src="../../images/images/banner_p3_up_35.gif" alt="banner" width=128 height=19 border=0 align="top"></td>
+              </tr>
+            </table>
+            <table width="765" border="0" cellpadding="0" cellspacing="0" bgcolor="#EFF7E8">
+              <tr>
+                <td width=163 valign="top" bgcolor="#99CC66"><table width=100% border=0 cellpadding=1 cellspacing=0 bgcolor="#99CC66">
+                  <tr>
+                    <td colspan="2"><img border="0" src="../../images/spacer_trans.gif" alt="" width="2" height="20"><a href="../../invest.htm" title="Investigations Overview" class="p3_navtitle" id="S1">Investigations</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../invest.htm" title="Investigations Overview" class="p3_navtxt" id="S1h">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../web/investigations/inv_abstracts.html" title="Abstracts and Profiles" class="p3_navtxt" id="S1a">Abstracts &amp; Profiles</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../../invest/invest_pubs.htm" title="Publications" class="p3_navtxt" id="S1b">Publications</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../sites.htm" title="Research Sites" class="p3_navtxt" id="S1c">Research Sites</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../invest/invest_conf.htm" title="Meetings" class="p3_navtxt" id="S1d">Meetings</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../../synthesis/index.htm" title="Synthesis Groups" class="p3_navtxt" id="S1e">Synthesis Groups</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../../invest/invest_hydro.htm" title="LBA-HYDROMET" class="p3_navtxt" id="S1f">LBA-HYDROMET</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../../invest/invest_air.htm" title="LBA-Air-ECO" class="p3_navtxt" id="S1g">LBA-Air-ECO</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../../images/spacer_trans.gif" alt="" width="2" height="20"><a href="../../logistics.htm" title="Logistics Overview" class="p3_navtitle" id="S2">Logistics</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8" ></td>
+                    <td><a href="../../logistics.htm" title="Logistics Overview" class="p3_navtxt" id="S2a">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../logist/field.htm" title="Field Support" class="p3_navtxt" id="S2b">Field Support</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8" ></td>
+                    <td><a href="../../logist/travel.htm" title="Travel" class="p3_navtxt" id="S2c">Travel </a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../logist/visa.htm" title="Visa" class="p3_navtxt" id="S2d">Visa</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../logist/ship.htm" title="Shipping" class="p3_navtxt"  id="S2e">Shipping</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../../images/spacer_trans.gif" alt=""width="4" height="20"><a href="../../data.htm" title="Data Overview" class="p3_navtitle" id="S3">Data</a></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="../../data.htm" title="Data Overview" class="p3_navtxt" id="S3a">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt=""width="6" height="8""></td>
+                    <td><a href="http://daac.ornl.gov/LBA/lba.shtml" title="Find LBA Data" target="_blank" class="p3_navtxt" id="S3b">Find LBA Data </a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt=""width="6" height="8"></td>
+                    <td><a href="../../data/data_check.htm" title="Investigator Checklist" class="p3_navtxt" id="S3c">Investigator Checklist </a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt=""width="6" height="8"></td>
+                    <td><a href="../../data/data_proc.htm" title="Data Process &amp; Policy" class="p3_navtxt" id="S3d">Process &amp; Policy </a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt=""width="6" height="8" ></td>
+                    <td><a href="../../data/data_doc.htm" title="Documentation &amp; Archive" class="p3_navtxt" id="S3e"> Documentation &amp; Archive</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../../images/spacer_trans.gif" alt="" width="4" height="20"><a href="../../edu.htm" title="Education &amp; Outreach Overview" class="p3_navtitle" id="S4">Training &amp; Education</a></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="../../edu.htm" title="Education &amp; Outreach Overview" class="p3_navtxt" id="S4a">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../out/out_activities.htm" title="Activities" class="p3_navtxt" id="S4b">Activities Summary</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../../out/out_goals.htm" title="Goals" class="p3_navtxt" id="S4c">T&amp;E Goals</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../../out/out_opp.htm" title="Opportunities" class="p3_navtxt" id="S4e">Student Opportunities</a></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="../../out/out_folha.htm" title="Folha Amaz&ocirc;nica" class="p3_navtxt" id="S4f">Folha Amaz&ocirc;nica</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                  </tr>
+                  <tr bgcolor="#99CC66">
+                    <td colspan="2"><span class="titlenav"> &nbsp;<br>
+                      <img border="0" src="../../images/spacer_trans.gif" alt="" width="1" height="100%"></span></td>
+                  </tr>
+                </table>                  <img border="0" src="../../images/spacer_trans.gif" alt="" width="164" height="5"></td>
+                <td width="10" valign="top" ><img border="0" src="../../images/spacer_trans.gif"  alt="spacer" width="10" height="1"> </td>
+                <td width="100%" valign="top" bgcolor="#EFF7E8" >
+                  <!--header-->
+                  <table width="590" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top"><a name="skipnav"></a> <!-- InstanceBeginEditable name="content" -->
+<div align="center">
+<br>
+<table width=600>
+<tr><td>
+<p class="pageheader">Search for Participants / Accounts</p>
+<p class="default-style"><a href="../../invest/signin/sign_search.htm">Search Tips</a></p>
+<form method=post action="find_set.html">
+<center><input type="submit" alt="Search" name="search" value="Search">&nbsp;&nbsp;&nbsp;<input type="reset" alt="Reset" value="Reset"></center>
+<p class="default-style">Search by one or more of the following fields:</p>
+<table border="0" width="100%" cellspacing="0" cellpadding="2">
+<tr>
+   <td scope="row" align="right"><label for="fn"><b>First Name:</b></label></td>
+   <td><input type="text" size="30" maxlength="185" name="first_name" id="fn" alt="First Name" value=""></td>
+</tr>
+<tr>
+   <td scope="row" align="right"><label for="ln"><b>Last Name:</b></label></td>
+   <td><input type="text" size="30" maxlength="185" name="last_name" id="ln" alt="Last Name" value=""></td>
+</tr>
+<tr>
+   <td scope="row" align="right"><label for="em"><b>Email:</b></label></td>
+   <td><input type="text" size="30" maxlength="160" name="email_address" id="em" alt="Email" value=""></td>
+</tr>
+<tr>
+   <td scope="row" align="right"><label for="org"><b>Organization:</b></label></td>
+   <td><input type="text" size="30" maxlength="160" name="organization" id="org" alt="Organization" value=""></td>
+</tr>
+<tr>
+   <td scope="row" align="right" nowrap><label for="pg"><b>Project Group:</b></label></td>
+   <td><select name="project_group_id" id="pg" alt="Project Group" size="10">
+<option value="157__AC-200 (Andreae / Artaxo)">AC-200 (Andreae / Artaxo)</option>
+<option value="158__AC-201 (Andreae / Artaxo)">AC-201 (Andreae / Artaxo)</option>
+<option value="156__AC-202 (Andreae / Artaxo)">AC-202 (Andreae / Artaxo)</option>
+<option value="149__AC-205 (Grace / Miranda)">AC-205 (Grace / Miranda)</option>
+<option value="260__AC-206 (Andreae / Artaxo)">AC-206 (Andreae / Artaxo)</option>
+<option value="261__AC-207 (Andreae / Artaxo)">AC-207 (Andreae / Artaxo)</option>
+<option value="153__AC-401 (Artaxo)">AC-401 (Artaxo)</option>
+<option value="150__AC-402 (Gatti)">AC-402 (Gatti)</option>
+<option value="152__AC-403 (C. Carvalho)">AC-403 (C. Carvalho)</option>
+<option value="1__CD-01 (Denning / Dias)">CD-01 (Denning / Dias)</option>
+<option value="2__CD-02 (Ehleringer / Martinelli)">CD-02 (Ehleringer / Martinelli)</option>
+<option value="3__CD-03 (Fitzjarrald / Moraes)">CD-03 (Fitzjarrald / Moraes)</option>
+<option value="4__CD-04 (Goulden / Rocha)">CD-04 (Goulden / Rocha)</option>
+<option value="5__CD-05 (Nepstad / Klink / Moutinho)">CD-05 (Nepstad / Klink / Moutinho)</option>
+<option value="6__CD-06 (Richey / Victoria)">CD-06 (Richey / Victoria)</option>
+<option value="7__CD-07 (Smith / Cooper / Dias)">CD-07 (Smith / Cooper / Dias)</option>
+<option value="8__CD-08 (Trumbore / Camargo)">CD-08 (Trumbore / Camargo)</option>
+<option value="9__CD-09 (Rastetter / Shimabukuro)">CD-09 (Rastetter / Shimabukuro)</option>
+<option value="10__CD-10 (Wofsy / Kirchhoff / Camargo / A. Nobre)">CD-10 (Wofsy / Kirchhoff / Camargo / A. Nobre)</option>
+<option value="388__CD-100 (Lehmann / Luizão)">CD-100 (Lehmann / Luizão)</option>
+<option value="11__CD-11 (Houghton / Alencar)">CD-11 (Houghton / Alencar)</option>
+<option value="110__CD-12 (Vourlitis / Priante)">CD-12 (Vourlitis / Priante)</option>
+<option value="229__CD-15 (Cohen / Costa)">CD-15 (Cohen / Costa)</option>
+<option value="231__CD-17 (Ducey / Alves)">CD-17 (Ducey / Alves)</option>
+<option value="243__CD-18 (Shuttleworth / Nobre)">CD-18 (Shuttleworth / Nobre)</option>
+<option value="167__CD-200 (Grace / Costa)">CD-200 (Grace / Costa)</option>
+<option value="147__CD-201 (Grace / Ruivo)">CD-201 (Grace / Ruivo)</option>
+<option value="145__CD-202 (Kabat / A. Nobre)">CD-202 (Kabat / A. Nobre)</option>
+<option value="148__CD-203 (Kruijt / A. Nobre)">CD-203 (Kruijt / A. Nobre)</option>
+<option value="194__CD-204 (Lloyd / Miranda)">CD-204 (Lloyd / Miranda)</option>
+<option value="195__CD-205 (Grace / Deane de Abreu Sá )">CD-205 (Grace / Deane de Abreu Sá )</option>
+<option value="212__CD-206 (Lloyd / Toledo)">CD-206 (Lloyd / Toledo)</option>
+<option value="213__CD-207 (Kruijt / Manzi / Priante)">CD-207 (Kruijt / Manzi / Priante)</option>
+<option value="214__CD-208 (Milne / Cerri)">CD-208 (Milne / Cerri)</option>
+<option value="400__CD-209 (Kruijt / Nobre)">CD-209 (Kruijt / Nobre)</option>
+<option value="357__CD-30 (Fitzjarrald / Morães / Acevedo / Cohen / M. Silva Dias / Manzi)">CD-30 (Fitzjarrald / Morães / Acevedo / Cohen / M. Silva Dias / Manzi)</option>
+<option value="358__CD-31 (Miller, S. / da Rocha)">CD-31 (Miller, S. / da Rocha)</option>
+<option value="359__CD-32 (Saleska / da Rocha / Artaxo / Nobre / Shimabukuro)">CD-32 (Saleska / da Rocha / Artaxo / Nobre / Shimabukuro)</option>
+<option value="360__CD-33 (Richey / Victoria)">CD-33 (Richey / Victoria)</option>
+<option value="361__CD-34 (Chambers / Higuchi / J. dos Santos / Camargo)">CD-34 (Chambers / Higuchi / J. dos Santos / Camargo)</option>
+<option value="362__CD-35 (Wofsy / Camargo / Artaxo / M. Silva Dias)">CD-35 (Wofsy / Camargo / Artaxo / M. Silva Dias)</option>
+<option value="363__CD-36 (Bastidas / Shuttleworth / Nobre)">CD-36 (Bastidas / Shuttleworth / Nobre)</option>
+<option value="364__CD-37 (Lefsky / ??)">CD-37 (Lefsky / ??)</option>
+<option value="410__CD-40 (Keller)">CD-40 (Keller)</option>
+<option value="146__CD-400 (A. Nobre)">CD-400 (A. Nobre)</option>
+<option value="193__CD-401 (Carvalho Jr / Alvarado / Gielow)">CD-401 (Carvalho Jr / Alvarado / Gielow)</option>
+<option value="215__CD-402 (Resende)">CD-402 (Resende)</option>
+<option value="236__CD-403 (Artaxo)">CD-403 (Artaxo)</option>
+<option value="401__CD-404 (Manzi / Santos)">CD-404 (Manzi / Santos)</option>
+<option value="411__CD-41 (Palace)">CD-41 (Palace)</option>
+<option value="347__CD-500 (Artaxo / Dias / Wofsy / Gerbig / Röckmann)">CD-500 (Artaxo / Dias / Wofsy / Gerbig / Röckmann)</option>
+<option value="399__CD-501 (R. Luizão / Mahli )">CD-501 (R. Luizão / Mahli )</option>
+<option value="415__CD-502 (Carvalho / Alvarado Celestino )">CD-502 (Carvalho / Alvarado Celestino )</option>
+<option value="308__HD-200 (Veiga / Piketty)">HD-200 (Veiga / Piketty)</option>
+<option value="162__HD-400 (Confalonieri)">HD-400 (Confalonieri)</option>
+<option value="161__HD-401 (Becker)">HD-401 (Becker)</option>
+<option value="163__HD-402 (Sa)">HD-402 (Sa)</option>
+<option value="402__HD-403 (Confalonieri)">HD-403 (Confalonieri)</option>
+<option value="419__LBA2-5002 (José Carlos Santos )">LBA2-5002 (José Carlos Santos )</option>
+<option value="420__LBA2-5003 (Humberto Rocha / E. Gloor)">LBA2-5003 (Humberto Rocha / E. Gloor)</option>
+<option value="421__LBA2-5004 (Humberto Rocha )">LBA2-5004 (Humberto Rocha )</option>
+<option value="422__LBA2-5005 (Plínio Camargo / Scott Saleska)">LBA2-5005 (Plínio Camargo / Scott Saleska)</option>
+<option value="423__LBA2-5006 (Flávio Luizão / Oliver Phillips)">LBA2-5006 (Flávio Luizão / Oliver Phillips)</option>
+<option value="424__LBA2-5007 (Rodrigo da Silva )">LBA2-5007 (Rodrigo da Silva )</option>
+<option value="425__LBA2-5008 (Flávio Luizão )">LBA2-5008 (Flávio Luizão )</option>
+<option value="426__LBA2-5009 (Julia Cohen / David Fitzjarrald)">LBA2-5009 (Julia Cohen / David Fitzjarrald)</option>
+<option value="427__LBA2-5010 (Antonio Carlos Lola da Costa )">LBA2-5010 (Antonio Carlos Lola da Costa )</option>
+<option value="428__LBA2-5011 (José Nogueira )">LBA2-5011 (José Nogueira )</option>
+<option value="429__LBA2-5012 (Alex Krusche / Christopher Neill)">LBA2-5012 (Alex Krusche / Christopher Neill)</option>
+<option value="430__LBA2-5013 (Marcos Heil Costa / Michael Thomas Coe)">LBA2-5013 (Marcos Heil Costa / Michael Thomas Coe)</option>
+<option value="431__LBA2-5014 (Javier Tomasella )">LBA2-5014 (Javier Tomasella )</option>
+<option value="432__LBA2-5015 (Antonio Manzi / Jurgen Kesselmeier)">LBA2-5015 (Antonio Manzi / Jurgen Kesselmeier)</option>
+<option value="433__LBA2-5016 (Alex Krusche / Patricia Yaler)">LBA2-5016 (Alex Krusche / Patricia Yaler)</option>
+<option value="434__LBA2-5017 (Alex Krusche )">LBA2-5017 (Alex Krusche )</option>
+<option value="435__LBA2-5018 (Antonio Manzi )">LBA2-5018 (Antonio Manzi )</option>
+<option value="436__LBA2-5019 (Antonio Manzi / Bart Kruijt)">LBA2-5019 (Antonio Manzi / Bart Kruijt)</option>
+<option value="437__LBA2-5020 (Cosme Ferreira / Michael Keller)">LBA2-5020 (Cosme Ferreira / Michael Keller)</option>
+<option value="438__LBA2-5021 (Niro Higuchi / Jeff Chambers)">LBA2-5021 (Niro Higuchi / Jeff Chambers)</option>
+<option value="439__LBA2-5022 (Eduardo Guimarães Couto / Mark Stephen Johnson)">LBA2-5022 (Eduardo Guimarães Couto / Mark Stephen Johnson)</option>
+<option value="440__LBA2-5023 (Luiz Augusto Toledo Machado )">LBA2-5023 (Luiz Augusto Toledo Machado )</option>
+<option value="441__LBA2-5024 (Paulo Artaxo )">LBA2-5024 (Paulo Artaxo )</option>
+<option value="442__LBA2-5025 (Paulo Artaxo )">LBA2-5025 (Paulo Artaxo )</option>
+<option value="443__LBA2-5026 (Bruce Forsberg )">LBA2-5026 (Bruce Forsberg )</option>
+<option value="444__LBA2-5027 (Hillandia Cunha )">LBA2-5027 (Hillandia Cunha )</option>
+<option value="445__LBA2-5028 (Hillandia Cunha )">LBA2-5028 (Hillandia Cunha )</option>
+<option value="446__LBA2-5029 (Paulo Artaxo /  Gordon McFiggans )">LBA2-5029 (Paulo Artaxo /  Gordon McFiggans )</option>
+<option value="447__LBA2-5030 (Celso von Randow / Bart Kruijt)">LBA2-5030 (Celso von Randow / Bart Kruijt)</option>
+<option value="448__LBA2-5031 (Rodrigo Souza / Scot Martin)">LBA2-5031 (Rodrigo Souza / Scot Martin)</option>
+<option value="449__LBA2-5032 (Paulo Artaxo )">LBA2-5032 (Paulo Artaxo )</option>
+<option value="450__LBA2-5033 (Maria Cristina Andres Arbage )">LBA2-5033 (Maria Cristina Andres Arbage )</option>
+<option value="13__LC-01 (Walsh / Bilsborrow / Manosalvas)">LC-01 (Walsh / Bilsborrow / Manosalvas)</option>
+<option value="14__LC-02 (Brown / Silveira / Esteves)">LC-02 (Brown / Silveira / Esteves)</option>
+<option value="15__LC-03 (Dobson / Soares)">LC-03 (Dobson / Soares)</option>
+<option value="16__LC-04 (Foley / Costa)">LC-04 (Foley / Costa)</option>
+<option value="17__LC-05 (Laurance / Mesquita)">LC-05 (Laurance / Mesquita)</option>
+<option value="18__LC-06 (Huete / Shimabukuro)">LC-06 (Huete / Shimabukuro)</option>
+<option value="19__LC-07 (Melack / Novo / Forsberg)">LC-07 (Melack / Novo / Forsberg)</option>
+<option value="20__LC-08 (Moore / Nobre)">LC-08 (Moore / Nobre)</option>
+<option value="21__LC-09 (Moran / Batistella)">LC-09 (Moran / Batistella)</option>
+<option value="22__LC-10 (Skole / Pedlowski)">LC-10 (Skole / Pedlowski)</option>
+<option value="23__LC-11 (Chapman / Dutra)">LC-11 (Chapman / Dutra)</option>
+<option value="181__LC-12 (Tucker / Rudorff / Shimabukuro)">LC-12 (Tucker / Rudorff / Shimabukuro)</option>
+<option value="182__LC-13 (Asner / Silva )">LC-13 (Asner / Silva )</option>
+<option value="183__LC-14 (Nepstad / Moutinho)">LC-14 (Nepstad / Moutinho)</option>
+<option value="184__LC-15 (Saatchi / Alvala)">LC-15 (Saatchi / Alvala)</option>
+<option value="196__LC-16 (Davidson / Klink)">LC-16 (Davidson / Klink)</option>
+<option value="244__LC-21 (Asner / Bustamante / Silva)">LC-21 (Asner / Bustamante / Silva)</option>
+<option value="245__LC-22 (DeFries / Shimabukuro)">LC-22 (DeFries / Shimabukuro)</option>
+<option value="246__LC-23 (Morisette / Schroeder / Pereira)">LC-23 (Morisette / Schroeder / Pereira)</option>
+<option value="247__LC-24 (Walker / Reis)">LC-24 (Walker / Reis)</option>
+<option value="365__LC-30 (Walsh / Manosalvas)">LC-30 (Walsh / Manosalvas)</option>
+<option value="366__LC-31 (Foley / Costa)">LC-31 (Foley / Costa)</option>
+<option value="367__LC-32 (Melack / Novo)">LC-32 (Melack / Novo)</option>
+<option value="368__LC-33 (Asner / Bustamante)">LC-33 (Asner / Bustamante)</option>
+<option value="375__LC-34 (Moran / Batistella)">LC-34 (Moran / Batistella)</option>
+<option value="370__LC-35 (Csiszar / Longo / Setzer)">LC-35 (Csiszar / Longo / Setzer)</option>
+<option value="371__LC-36 (Walker / Reis)">LC-36 (Walker / Reis)</option>
+<option value="372__LC-37 (Nepstad / Soares-Filho / Almeida)">LC-37 (Nepstad / Soares-Filho / Almeida)</option>
+<option value="373__LC-38 (Melillo / Cerri)">LC-38 (Melillo / Cerri)</option>
+<option value="382__LC-39 (DeFries / Shimabukuro)">LC-39 (DeFries / Shimabukuro)</option>
+<option value="160__LC-400 (Souza)">LC-400 (Souza)</option>
+<option value="165__LC-401 (Brown)">LC-401 (Brown)</option>
+<option value="199__LC-402 (Luizao / Klink)">LC-402 (Luizao / Klink)</option>
+<option value="406__LC-403 (Fearnside)">LC-403 (Fearnside)</option>
+<option value="25__ND-01 (Roberts / Barreto / Soares)">ND-01 (Roberts / Barreto / Soares)</option>
+<option value="26__ND-02 (Davidson / Stone / Markewitz / Carvalho / Sa / Vieira / Moutinho / Figueiredo)">ND-02 (Davidson / Stone / Markewitz / Carvalho / Sa / Vieira / Moutinho / Figueiredo)</option>
+<option value="27__ND-03 (Deegan / Victoria / Krusche / Ballester)">ND-03 (Deegan / Victoria / Krusche / Ballester)</option>
+<option value="28__ND-04 (Fernandes / Wandelli)">ND-04 (Fernandes / Wandelli)</option>
+<option value="29__ND-06 (Gholz / Oliveira)">ND-06 (Gholz / Oliveira)</option>
+<option value="30__ND-07 (Zepp / Bustamante)">ND-07 (Zepp / Bustamante)</option>
+<option value="31__ND-08 (McNabb / Costa)">ND-08 (McNabb / Costa)</option>
+<option value="57__ND-09 (Richey / Victoria)">ND-09 (Richey / Victoria)</option>
+<option value="32__ND-10 (Townsend / Asner / Bustamante)">ND-10 (Townsend / Asner / Bustamante)</option>
+<option value="248__ND-11 (Lehmann / Passos / Couto)">ND-11 (Lehmann / Passos / Couto)</option>
+<option value="374__ND-30 (Davidson / Carvalho / Figueiredo / Vieira)">ND-30 (Davidson / Carvalho / Figueiredo / Vieira)</option>
+<option value="369__ND-31 (Deegan / Victoria)">ND-31 (Deegan / Victoria)</option>
+<option value="262__ND-400 (Alfa)">ND-400 (Alfa)</option>
+<option value="169__PC-01 (Rutledge / Dias)">PC-01 (Rutledge / Dias)</option>
+<option value="100__PC-02 (Pinker / Ceballos)">PC-02 (Pinker / Ceballos)</option>
+<option value="101__PC-03 (Xue / Chou)">PC-03 (Xue / Chou)</option>
+<option value="86__PC-04 (Dirmeyer / Marengo / Rocha)">PC-04 (Dirmeyer / Marengo / Rocha)</option>
+<option value="87__PC-05 (Avissar / Maria Silva Dias / Pedro Silva Dias)">PC-05 (Avissar / Maria Silva Dias / Pedro Silva Dias)</option>
+<option value="88__PC-06 (Betts / Maria Silva Dias / Pedro Silva Dias)">PC-06 (Betts / Maria Silva Dias / Pedro Silva Dias)</option>
+<option value="84__PC-07 (Ferreira / Ambrizzi)">PC-07 (Ferreira / Ambrizzi)</option>
+<option value="98__PC-08 (Shuttleworth / Marengo)">PC-08 (Shuttleworth / Marengo)</option>
+<option value="104__PC-09 (Vicente / Costa)">PC-09 (Vicente / Costa)</option>
+<option value="171__PC-10 (Heymsfield / Esposito)">PC-10 (Heymsfield / Esposito)</option>
+<option value="172__PC-11 (Fuentes / Fisch)">PC-11 (Fuentes / Fisch)</option>
+<option value="173__PC-12 (Gage / Marengo)">PC-12 (Gage / Marengo)</option>
+<option value="174__PC-13 (Rutledge / Dias)">PC-13 (Rutledge / Dias)</option>
+<option value="175__PC-14 (Williams / Antonio)">PC-14 (Williams / Antonio)</option>
+<option value="176__PC-15 (Stith / Almeida)">PC-15 (Stith / Almeida)</option>
+<option value="177__PC-16 (Kummerow / Ferreira)">PC-16 (Kummerow / Ferreira)</option>
+<option value="178__PC-17 (Goodman / Pinto)">PC-17 (Goodman / Pinto)</option>
+<option value="179__PC-18 (Halverson / Fisch)">PC-18 (Halverson / Fisch)</option>
+<option value="143__PC-200 (Andreae / Artaxo)">PC-200 (Andreae / Artaxo)</option>
+<option value="197__PC-201 (Gash / Nobre)">PC-201 (Gash / Nobre)</option>
+<option value="396__PC-30 (Avissar / Pedro Silva  Dias)">PC-30 (Avissar / Pedro Silva  Dias)</option>
+<option value="168__PC-400 (Nobre)">PC-400 (Nobre)</option>
+<option value="170__PC-401 (Cohen)">PC-401 (Cohen)</option>
+<option value="144__PC-402 (Moutinho)">PC-402 (Moutinho)</option>
+<option value="217__PC-403 (Dias)">PC-403 (Dias)</option>
+<option value="242__PC-404 (Dias)">PC-404 (Dias)</option>
+<option value="404__PC-405 (Marengo / Nobre)">PC-405 (Marengo / Nobre)</option>
+<option value="405__PC-600 (Catchpole /  Llerena)">PC-600 (Catchpole /  Llerena)</option>
+<option value="99__SH-01 (Birkett / Jasinski / Costa)">SH-01 (Birkett / Jasinski / Costa)</option>
+<option value="103__SH-02 (Dunne / Martinelli)">SH-02 (Dunne / Martinelli)</option>
+<option value="102__SH-03 (Vorosmarty / Marengo)">SH-03 (Vorosmarty / Marengo)</option>
+<option value="216__SH-200 (Pascal / Seyler / Oliveira)">SH-200 (Pascal / Seyler / Oliveira)</option>
+<option value="159__SH-400 (Victoria)">SH-400 (Victoria)</option>
+<option value="403__SH-600 (Galarraga-Sánchez)">SH-600 (Galarraga-Sánchez)</option>
+<option value="33__TG-01 (Chatfield / Silva Dias)">TG-01 (Chatfield / Silva Dias)</option>
+<option value="34__TG-02 (Guenther / Gatti)">TG-02 (Guenther / Gatti)</option>
+<option value="35__TG-03 (Schafer / Artaxo / Duarte / Setzer)">TG-03 (Schafer / Artaxo / Duarte / Setzer)</option>
+<option value="36__TG-04 (Martens / Moraes / Victoria / Moreira )">TG-04 (Martens / Moraes / Victoria / Moreira )</option>
+<option value="37__TG-05 (Potter / Carvalho / Oliveira)">TG-05 (Potter / Carvalho / Oliveira)</option>
+<option value="38__TG-06 (Tans / Miller / Artaxo / Gatti / Martinelli)">TG-06 (Tans / Miller / Artaxo / Gatti / Martinelli)</option>
+<option value="39__TG-07 (Keller / Oliveira)">TG-07 (Keller / Oliveira)</option>
+<option value="40__TG-08 (Melillo / Cerri)">TG-08 (Melillo / Cerri)</option>
+<option value="132__TG-09 (Trumbore / Perez / Camargo)">TG-09 (Trumbore / Perez / Camargo)</option>
+<option value="256__TG-10 (Yokelson / Artaxo)">TG-10 (Yokelson / Artaxo)</option>
+<option value="376__TG-30 (Potter / Bustamante / Ferreira / Cosme de Oliveira)">TG-30 (Potter / Bustamante / Ferreira / Cosme de Oliveira)</option>
+<option value="377__TG-31 (Miller, J. / Gatti / M. Silva Dias)">TG-31 (Miller, J. / Gatti / M. Silva Dias)</option>
+<option value="381__TG-32 (Keller / Oliveira)">TG-32 (Keller / Oliveira)</option>
+<option value="271__NASA HQ LBA Program Affiliation">NASA HQ LBA Program Affiliation</option>
+<option value="414__2009 LBA BOOK AUTHORS">2009 LBA BOOK AUTHORS</option>
+<option value="238__2nd International LBA Scientific Conference Participants">2nd International LBA Scientific Conference Participants</option>
+<option value="106__3rd LBA-ECO Science Team Meeting Attendees">3rd LBA-ECO Science Team Meeting Attendees</option>
+<option value="270__7th LBA-ECO Science Team Meeting Attendees - Fortaleza">7th LBA-ECO Science Team Meeting Attendees - Fortaleza</option>
+<option value="310__8th LBA-ECO Business Meeting Participants">8th LBA-ECO Business Meeting Participants</option>
+<option value="76__Acre site list">Acre site list</option>
+<option value="114__Acre Site Resources Coordination">Acre Site Resources Coordination</option>
+<option value="79__Amazonas (Manaus) site list">Amazonas (Manaus) site list</option>
+<option value="116__Amazonas Site Resources Coordination">Amazonas Site Resources Coordination</option>
+<option value="136__Belem Regional Office">Belem Regional Office</option>
+<option value="294__Brasilia Regional Office">Brasilia Regional Office</option>
+<option value="77__Brasília site list">Brasília site list</option>
+<option value="115__Brasília Site Resources Coordination">Brasília Site Resources Coordination</option>
+<option value="122__Colombia Site Resources Coordination">Colombia Site Resources Coordination</option>
+<option value="314__Ecological Applications Journal Authors - Summer 2004">Ecological Applications Journal Authors - Summer 2004</option>
+<option value="123__Ecuador Site Resources Coordination">Ecuador Site Resources Coordination</option>
+<option value="186__FGDC NSDI">FGDC NSDI</option>
+<option value="278__Fortaleza Workshop Attendees: BARCA">Fortaleza Workshop Attendees: BARCA</option>
+<option value="283__Fortaleza Workshop Attendees: Business Transition Planning">Fortaleza Workshop Attendees: Business Transition Planning</option>
+<option value="284__Fortaleza Workshop Attendees: Data Archival">Fortaleza Workshop Attendees: Data Archival</option>
+<option value="277__Fortaleza Workshop Attendees: Education and Training">Fortaleza Workshop Attendees: Education and Training</option>
+<option value="282__Fortaleza Workshop Attendees: Fire - Ecosystems and the Atmosphere">Fortaleza Workshop Attendees: Fire - Ecosystems and the Atmosphere</option>
+<option value="280__Fortaleza Workshop Attendees: Intensive Agriculture">Fortaleza Workshop Attendees: Intensive Agriculture</option>
+<option value="281__Fortaleza Workshop Attendees: LBA-Air-ECO Recovery">Fortaleza Workshop Attendees: LBA-Air-ECO Recovery</option>
+<option value="286__Fortaleza Workshop Attendees: Logging - Field">Fortaleza Workshop Attendees: Logging - Field</option>
+<option value="288__Fortaleza Workshop Attendees: Logging - Model">Fortaleza Workshop Attendees: Logging - Model</option>
+<option value="287__Fortaleza Workshop Attendees: Logging - RS">Fortaleza Workshop Attendees: Logging - RS</option>
+<option value="285__Fortaleza Workshop Attendees: Logging and Forest Degradation">Fortaleza Workshop Attendees: Logging and Forest Degradation</option>
+<option value="279__Fortaleza Workshop Attendees: Logging Studies">Fortaleza Workshop Attendees: Logging Studies</option>
+<option value="289__Fortaleza Workshop Attendees: Secondary Forests">Fortaleza Workshop Attendees: Secondary Forests</option>
+<option value="313__Global Change Biology Journal  Authors - 5/2004">Global Change Biology Journal  Authors - 5/2004</option>
+<option value="141__IBAMA Permits">IBAMA Permits</option>
+<option value="211__IGBP Conference - Participants">IGBP Conference - Participants</option>
+<option value="354__II CEB LBA Participants - Manaus, July 05">II CEB LBA Participants - Manaus, July 05</option>
+<option value="129__Land Cover Land Use Change Program Office">Land Cover Land Use Change Program Office</option>
+<option value="413__LBA 2008 Late Registrations">LBA 2008 Late Registrations</option>
+<option value="223__LBA Brazil Science Team Participants">LBA Brazil Science Team Participants</option>
+<option value="94__LBA Central Office in Manaus">LBA Central Office in Manaus</option>
+<option value="93__LBA Central Office Management">LBA Central Office Management</option>
+<option value="329__LBA Central Office Scheduler Recipients">LBA Central Office Scheduler Recipients</option>
+<option value="224__LBA Europe Science Team Participants">LBA Europe Science Team Participants</option>
+<option value="312__LBA Field Validation Working Group">LBA Field Validation Working Group</option>
+<option value="210__LBA Organization and Implementation Committee">LBA Organization and Implementation Committee</option>
+<option value="225__LBA Science Team Participants">LBA Science Team Participants</option>
+<option value="53__LBA SSC">LBA SSC</option>
+<option value="334__LBA Student Conference 2005 Logistical Committee">LBA Student Conference 2005 Logistical Committee</option>
+<option value="333__LBA Student Conference 2005 Scientific Committee">LBA Student Conference 2005 Scientific Committee</option>
+<option value="335__LBA Student Conference 2005 Web Support">LBA Student Conference 2005 Web Support</option>
+<option value="58__LBA Superior Council">LBA Superior Council</option>
+<option value="255__LBA Technical Office and APLBA at CPTEC">LBA Technical Office and APLBA at CPTEC</option>
+<option value="269__LBA Training & Education Executive Committee">LBA Training & Education Executive Committee</option>
+<option value="207__LBA-Air-ECO (Airborne Science) Principal Investigators">LBA-Air-ECO (Airborne Science) Principal Investigators</option>
+<option value="235__LBA-Air-ECO (Airborne Science) US-PIs">LBA-Air-ECO (Airborne Science) US-PIs</option>
+<option value="112__LBA-DIS WG">LBA-DIS WG</option>
+<option value="61__LBA-ECO">LBA-ECO</option>
+<option value="407__LBA-ECO 10th Science Team Meeting Participants">LBA-ECO 10th Science Team Meeting Participants</option>
+<option value="416__LBA-ECO 12th Science Team Meeting Participants">LBA-ECO 12th Science Team Meeting Participants</option>
+<option value="108__LBA-ECO and HYDROMET/ESIP">LBA-ECO and HYDROMET/ESIP</option>
+<option value="409__LBA-ECO Carbon Cycle and Terrestrial Ecology Awards (2008 - 2011)">LBA-ECO Carbon Cycle and Terrestrial Ecology Awards (2008 - 2011)</option>
+<option value="89__LBA-ECO Field Operations Contact Group">LBA-ECO Field Operations Contact Group</option>
+<option value="192__LBA-ECO Open Meeting Participants (Feb 2001)">LBA-ECO Open Meeting Participants (Feb 2001)</option>
+<option value="385__LBA-ECO Phase 2 and 3 Participants">LBA-ECO Phase 2 and 3 Participants</option>
+<option value="397__LBA-ECO Phase 2 and Phase 3 Science Team">LBA-ECO Phase 2 and Phase 3 Science Team</option>
+<option value="254__LBA-ECO Phase 2 Participants">LBA-ECO Phase 2 Participants</option>
+<option value="263__LBA-ECO Phase 2 Science Team">LBA-ECO Phase 2 Science Team</option>
+<option value="336__LBA-ECO Phase 2 US PIs">LBA-ECO Phase 2 US PIs</option>
+<option value="383__LBA-ECO Phase 3 Participants">LBA-ECO Phase 3 Participants</option>
+<option value="348__LBA-ECO Phase 3 Synthesis Science Team">LBA-ECO Phase 3 Synthesis Science Team</option>
+<option value="378__LBA-ECO Phase 3 US and SA PIs">LBA-ECO Phase 3 US and SA PIs</option>
+<option value="384__LBA-ECO Phase 3 US PIs">LBA-ECO Phase 3 US PIs</option>
+<option value="250__LBA-ECO Principal Investigators (US and SA continuing into 2003)">LBA-ECO Principal Investigators (US and SA continuing into 2003)</option>
+<option value="60__LBA-ECO Project Office">LBA-ECO Project Office</option>
+<option value="48__LBA-ECO Project Office - NASA/GSFC">LBA-ECO Project Office - NASA/GSFC</option>
+<option value="52__LBA-ECO Project Office - ORNL DAAC">LBA-ECO Project Office - ORNL DAAC</option>
+<option value="59__LBA-ECO Project Office - UNH">LBA-ECO Project Office - UNH</option>
+<option value="82__LBA-ECO SA Principal Investigators">LBA-ECO SA Principal Investigators</option>
+<option value="180__LBA-ECO Santarem Support Staff">LBA-ECO Santarem Support Staff</option>
+<option value="47__LBA-ECO Science Team Participants">LBA-ECO Science Team Participants</option>
+<option value="140__LBA-ECO Science Team Working in Brazil">LBA-ECO Science Team Working in Brazil</option>
+<option value="232__LBA-ECO Site Logistics Aides">LBA-ECO Site Logistics Aides</option>
+<option value="142__LBA-ECO Site Resources Coordination groups">LBA-ECO Site Resources Coordination groups</option>
+<option value="379__LBA-ECO Synthesis Group Leaders">LBA-ECO Synthesis Group Leaders</option>
+<option value="73__LBA-ECO US Principal Investigators">LBA-ECO US Principal Investigators</option>
+<option value="85__LBA-HYDROMET">LBA-HYDROMET</option>
+<option value="191__LBA-HYDROMET Project Office">LBA-HYDROMET Project Office</option>
+<option value="187__LBA-HYDROMET Science Team">LBA-HYDROMET Science Team</option>
+<option value="185__LBA-HYDROMET US Principal Investigators">LBA-HYDROMET US Principal Investigators</option>
+<option value="344__Mato Grosso - Cuibá Regional Office">Mato Grosso - Cuibá Regional Office</option>
+<option value="257__Mato Grosso site list">Mato Grosso site list</option>
+<option value="121__Mato Grosso Site Resources Coordination">Mato Grosso Site Resources Coordination</option>
+<option value="96__Notification List for LBA-ECO Communications">Notification List for LBA-ECO Communications</option>
+<option value="126__Other LBA Investigators">Other LBA Investigators</option>
+<option value="318__Other LBA-ECO 2005+ STI Groups">Other LBA-ECO 2005+ STI Groups</option>
+<option value="292__Palmas (Tocantins) Regional Office">Palmas (Tocantins) Regional Office</option>
+<option value="120__Pará (Eastern) - Belém Site Resources Coordination">Pará (Eastern) - Belém Site Resources Coordination</option>
+<option value="117__Pará (Western) - Santarém Site Resources Coordination">Pará (Western) - Santarém Site Resources Coordination</option>
+<option value="75__Pará East (Belém) site list">Pará East (Belém) site list</option>
+<option value="80__Pará West (Santarém) site list">Pará West (Santarém) site list</option>
+<option value="134__Registries for Fed. ID cards (Belem in April)">Registries for Fed. ID cards (Belem in April)</option>
+<option value="295__Rio Branco Regional Office">Rio Branco Regional Office</option>
+<option value="124__Rio Grande do Norte Site Resources Coordination">Rio Grande do Norte Site Resources Coordination</option>
+<option value="138__Rondonia Regional Office">Rondonia Regional Office</option>
+<option value="78__Rondonia site list">Rondonia site list</option>
+<option value="118__Rondonia Site Resources Coordination">Rondonia Site Resources Coordination</option>
+<option value="74__RS Workshop">RS Workshop</option>
+<option value="297__RSE LBA Special Issue Authors">RSE LBA Special Issue Authors</option>
+<option value="345__Santarem LBA Regional Office Logistics Support">Santarem LBA Regional Office Logistics Support</option>
+<option value="253__Santarem on-site students">Santarem on-site students</option>
+<option value="258__Santarém Regional Office">Santarém Regional Office</option>
+<option value="355__Sao Gabriel da Cachoeira LBA Regional Office">Sao Gabriel da Cachoeira LBA Regional Office</option>
+<option value="125__Sao Gabriel da Cachoeira Site Resources Coordination">Sao Gabriel da Cachoeira Site Resources Coordination</option>
+<option value="119__São Paulo Site Resources Coordination">São Paulo Site Resources Coordination</option>
+<option value="391__Synthesis: Fires and Drought">Synthesis: Fires and Drought</option>
+<option value="390__Synthesis: Forest Disturbance">Synthesis: Forest Disturbance</option>
+<option value="392__Synthesis: Human Dimensions of LBA">Synthesis: Human Dimensions of LBA</option>
+<option value="393__Synthesis: Intensive Agriculture">Synthesis: Intensive Agriculture</option>
+<option value="394__Synthesis: Land-Water Coupling">Synthesis: Land-Water Coupling</option>
+<option value="395__Synthesis: Scaling Carbon Fluxes">Synthesis: Scaling Carbon Fluxes</option>
+<option value="273__TE-01 Livro Resultados LBA">TE-01 Livro Resultados LBA</option>
+<option value="274__TE-02 Material Didático UFPA/ULBRA">TE-02 Material Didático UFPA/ULBRA</option>
+<option value="291__Technical/Support Office - Cachoeira Paulista">Technical/Support Office - Cachoeira Paulista</option>
+<option value="81__Terrestrial Ecology Program Office">Terrestrial Ecology Program Office</option>
+<option value="131__U.S. Embassy - Brasilia">U.S. Embassy - Brasilia</option>
+
+   </select></td>
+</tr>
+</table><br>
+<center><input type="submit" alt="Search" name="search" value="Search">&nbsp;&nbsp;&nbsp;<input type="reset" alt="Reset" value="Reset"><br><br>
+</form>
+</td></tr></table>
+</div>
+<!-- InstanceEndEditable --></td>
+                    </tr>
+                  </table>
+                  <!--footer-->
+                </td>
+              </tr>
+            </table>
+            <table width="766" border="0" cellpadding="0" cellspacing="0">
+              <tr align="center">
+                <td height="5" colspan="3"><hr></td>
+              </tr>
+              <tr>
+                <td colspan="3" height="15">
+                  <p align="center"> <a href="#skipnav"><img border="0" src="../../images/spacer_trans.gif" alt="Skip navigation links" width="1" height="1"></a><span class="p3_navarrow"><a href="../../index.html" title="Home">HOME</a> | <a href="../../about.htm" title="About">ABOUT</a> | <a href="../../lib.htm" title="Library">LIBRARY</a> | <a href="../../new.htm" title="News Archive">NEWS ARCHIVE</a> | <a href="../../cont.htm" title="Contacts">CONTACTS</a> | <a href="../../invest.htm" title="Investigations">INVESTIGATIONS</a> | <a href="../../logistics.htm" title="Logistics">LOGISTICS</a> | <a href="../../data.htm" title="Data">DATA</a> |<a href="../../edu.htm" title="Education &amp; Outreach">TRAINING &amp; EDUCATION</a></span><br>
+                   
+                  </td>
+              </tr>
+              <tr>
+                <td width="33%"> <div align="center"><a href="http://www.nasa.gov/" target="_blank"><img border="0" src="../../images/nasalogo-small.gif" alt="NASA logo" width="58" height="50"></a>                  
+                  </div>
+                 </td>
+                <td width="34%"><div align="center"><a href="http://daac.ornl.gov/" target="_blank"><img height="100" width=97 src="../../images/ornl_daac_transp_bkg.png" alt="ORNL DAAC"></a></div></td>
+                <td width="33%"><div align="center"><a href="http://get.adobe.com/reader/" target="_blank"><img border="0" src="../../images/getacro.gif" alt="Get Acrobat Reader"  width="88" height="31"></a>                </div></td>
+              </tr>
+              <tr>
+                <td colspan="3" height="41">
+                  <p align="center" class="side-bar"><a href='mailto:uso@daac.ornl.gov' title="Contact ORNL DAAC">Contact ORNL DAAC</a><br>
+                    <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" title="Privacy Policy and Important Notices" target="_blank">Privacy Policy &amp; Important Notices</a><br>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+</BODY>
+<!-- InstanceEnd --></HTML>

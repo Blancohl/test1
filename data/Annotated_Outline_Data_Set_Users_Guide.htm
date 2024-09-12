@@ -1,0 +1,777 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:st1="urn:schemas-microsoft-com:office:smarttags" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 9">
+<meta name="Originator" content="Microsoft Word 9">
+<title>Data Set Documentation</title><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>MHP</o:Author>
+  <o:LastAuthor>Merilyn J. Gentry</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>316</o:TotalTime>
+  <o:LastPrinted>2006-03-15T15:27:00Z</o:LastPrinted>
+  <o:Created>2006-03-15T16:37:00Z</o:Created>
+  <o:LastSaved>2006-03-15T16:37:00Z</o:LastSaved>
+  <o:Pages>7</o:Pages>
+  <o:Words>2118</o:Words>
+  <o:Characters>12074</o:Characters>
+  <o:Company>ORNL</o:Company>
+  <o:Lines>100</o:Lines>
+  <o:Paragraphs>24</o:Paragraphs>
+  <o:CharactersWithSpaces>14827</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DoNotShowRevisions/>
+  <w:DoNotPrintRevisions/>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:DoNotShowMarkup/>
+ </w:WordDocument>
+</xml><![endif]-->
+
+
+
+<style>
+<!--
+h2
+	{mso-style-link:"Heading 2 Char";}
+span.HEADING2CHAR
+	{mso-style-link:"Heading 2";}
+span.SPELLE
+	{mso-spl-e:yes;}
+span.GRAME
+	{mso-gram-e:yes;}
+ /* Font Definitions */
+@font-face
+	{font-family:Courier;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:18.0pt;
+	font-weight:bold;}
+h2
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:12.2pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h4
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:30.6pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h5
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:42.8pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h6
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:.85in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:7.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:Courier;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Courier New";}
+p.i1, li.i1, div.i1
+	{mso-style-name:i1;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.i2, li.i2, div.i2
+	{mso-style-name:i2;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:12.2pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.i3, li.i3, div.i3
+	{mso-style-name:i3;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:30.6pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.i4, li.i4, div.i4
+	{mso-style-name:i4;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:42.8pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.i5, li.i5, div.i5
+	{mso-style-name:i5;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:.85in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.i6, li.i6, div.i6
+	{mso-style-name:i6;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:73.4pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.i7, li.i7, div.i7
+	{mso-style-name:i7;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:91.8pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.eudoraheader
+	{mso-style-name:eudoraheader;}
+ins
+	{mso-style-type:export-only;
+	text-decoration:none;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:1460799592;
+	mso-list-template-ids:1185726656;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="country-region"></o:smarttagtype><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="State"></o:smarttagtype><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="City"></o:smarttagtype><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="place"></o:smarttagtype><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="PlaceType"></o:smarttagtype><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="PlaceName"></o:smarttagtype></head><body style="" lang="EN-US" link="blue" vlink="blue">
+
+<div class="Section1">
+
+<h2 style="text-align: center;" align="center">Annotated Outline of Data Set User’s
+Guide</h2>
+
+<p class="MsoNormal">Data Set Documentation includes fully descriptive
+information about a data set: the premise behind the collection activity,
+abstract, data collection instruments, analysis methods, quality control procedures,
+calibration information, known problems with the data, file structure and
+format information, column names and descriptions, measurement units, requested
+citation, data contacts, and related data sets. The data set documentation
+should provide enough information that a user who is completely removed from
+the original data collection activity in space and time can read the
+documentation, understand the data, and evaluate the usefulness of the data for
+his or her current purposes. </p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoNormal">This information may be input into and then exported (in the
+format you see here) from the LBA Metadata Editor (LME).<span style="">&nbsp; </span>If you would like to include images, tables,
+or other special formats, you can use the LME to input the basic information
+and then, using your Browser “Save As” function, save the file to your desktop
+to be completed using your preferred html editor.<span style="">&nbsp; </span></p>
+
+
+<div class="MsoNormal" style="text-align: center;" align="center">
+
+<hr align="center" size="3" width="100%">
+
+</div>
+
+
+<h1>Title</h1>
+
+<p class="MsoNormal"><a name="OLE_LINK1"><i style="">(Loaded
+automatically from the "Data Set Title" field in the LME metadata
+file in the LME. You do not have to enter it again.)<o:p></o:p></i></a></p>
+
+<span style=""></span>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<h2>Summary:&nbsp; </h2>
+
+<p class="MsoNormal"><i style="">(Loaded automatically
+from the "Description" field in the LME metadata file. You do not
+have to enter it again.)<o:p></o:p></i></p>
+
+<p class="i2"><b>Summary Guidance:</b>&nbsp; A summary of the contents of this
+data set to orient the reader immediately on display. This is similar to the
+abstract of a published paper. A person reading the summary should be able to
+quickly ascertain the “who, what, when, where, and why” of the data set and
+decide whether to read further. In many cases, more people will read the
+summary than will read the entire document and obtain the data set. Thus, the
+summary should be completely self-explanatory and intelligible in itself. It
+should include the following: </p>
+
+<p class="i2" style="margin-left: 48.2pt; text-indent: -0.25in;"><span style="font-size: 10pt; font-family: Symbol;">·</span><span style="font-size: 7pt;"> </span>Reason for
+producing data collection, including rationale or justification for the
+research </p>
+
+<p class="i2" style="margin-left: 48.2pt; text-indent: -0.25in;"><span style="font-size: 10pt; font-family: Symbol;">·</span><span style="font-size: 7pt;"> </span>Objectives,
+location, and timeframe </p>
+
+<p class="i2" style="margin-left: 48.2pt; text-indent: -0.25in;"><span style="font-size: 10pt; font-family: Symbol;">·</span><span style="font-size: 7pt;"> </span>Brief
+description of methods used </p>
+
+<p class="i2" style="margin-left: 48.2pt; text-indent: -0.25in;"><span style="font-size: 10pt; font-family: Symbol;">·</span><span style="font-size: 7pt;"> </span>Results and
+conclusions </p>
+
+<p class="i2" style="margin-left: 48.2pt; text-indent: -0.25in;"><span style="font-size: 10pt; font-family: Symbol;">·</span><span style="font-size: 7pt;"> </span>General
+description of data files (number and format) </p>
+
+<p class="i2" style="margin-left: 48.2pt; text-indent: -0.25in;"><span style="font-size: 10pt; font-family: Symbol;">·</span><span style="font-size: 7pt;"> </span>Acknowledgement
+of sponsor. </p>
+
+<h2>Data Citation:</h2>
+
+<p class="MsoNormal"><a name="OLE_LINK4"><i style="">(Loaded
+automatically from the “Data Set Citation” field in the LME metadata file. You
+do not have to enter it again.)<o:p></o:p></i></a></p>
+
+<span style=""></span>
+
+<p class="i2"><b>Cite this data set as follows:</b></p>
+
+<p class="i2">Author1, A.B., C. D.Author2, E. Author3, F.Author4, and G.H.
+Author5. 2006. Title of the data set. Available on-line [http://daac.ornl.gov]
+from Oak Ridge National Laboratory Distributed Active Archive Center, Oak
+Ridge, Tennessee, USA</p>
+
+<h2>Table of Contents:</h2>
+
+<p class="MsoNormal"><i style="">(Constructed
+automatically)<o:p></o:p></i></p>
+
+<ul type="disc">
+ <li class="MsoNormal" style=""><a href="../data/Annotated_Outline_Data_Set_Users_Guide.htm#Data_Set_Overview">1
+     Data Set Overview</a> </li>
+ <li class="MsoNormal" style=""><a href="../data/Annotated_Outline_Data_Set_Users_Guide.htm#data_characteristics">2 Data Characteristics</a> </li>
+ <li class="MsoNormal" style=""><a href="../data/Annotated_Outline_Data_Set_Users_Guide.htm#data_application_and_derivation">3 Applications and Derivation</a> </li>
+ <li class="MsoNormal" style=""><a href="../data/Annotated_Outline_Data_Set_Users_Guide.htm#quality_assessment">4
+     Quality Assessment</a> </li>
+ <li class="MsoNormal" style=""><a href="../data/Annotated_Outline_Data_Set_Users_Guide.htm#data_acquisition_materials_and_methods">5 Acquisition Materials and
+     Methods</a> </li>
+ <li class="MsoNormal" style=""><a href="../data/Annotated_Outline_Data_Set_Users_Guide.htm#data_access">6 Data
+     Access</a> </li>
+ <li class="MsoNormal" style=""><a href="../data/Annotated_Outline_Data_Set_Users_Guide.htm#references">7
+     References </a></li>
+</ul>
+
+<h2><a name="HDataSetOverview"></a>1. Data Set Overview:</h2>
+
+<p class="MsoNormal"><a name="OLE_LINK3"><i style="">This
+section should include the following information, if applicable.<span style="">&nbsp; </span>The following sub-headings may optionally be
+used to organize your information.<ins cite="mailto:MHP" datetime="2004-02-09T09:28"><o:p></o:p></ins></i></a></p>
+
+<span style=""></span>
+
+<h3>Data Set Contents:</h3>
+
+<p class="i3">Briefly describe the data set contents.</p>
+
+<h3>Related Data Sets:</h3>
+
+<p class="i3">List and indicate sources of similar or related data that are
+generally available from the data archives.</p>
+
+<h3>Title of Investigation:</h3>
+
+<p class="i3">The title of the study or campaign for which the data collection
+was made.</p>
+
+<h3>Investigator(s) Name and E-mail:</h3>
+
+<h4>Name</h4>
+
+<p class="i4">The full name and title of an investigator associated with a data
+set. </p>
+
+<p class="MsoNormal"><i style="">(Loaded automatically
+from the "Investigator" field in the LME metadata file. You do not
+have to enter it again.)<o:p></o:p></i></p>
+
+<p class="i4">&nbsp;</p>
+
+<h4>Email</h4>
+
+<p class="i4">Short form for electronic mail. </p>
+
+<p class="MsoNormal"><i style="">(Loaded automatically
+from the " Investigator" field in the LME metadata file. You do not
+have to enter it again.)<o:p></o:p></i></p>
+
+<p class="i4">&nbsp;</p>
+
+<h3>Technical Contact(s) Name, Telephone, and E-mail:</h3>
+
+<h4>Name</h4>
+
+<p class="i4">Those persons most knowledgeable about the actual collection and
+processing of the data set. In many cases this will be a person (or persons),
+other than the Principal Investigator, who prepared the data for submission and
+are sufficiently knowledgeable about the data, to answer technical questions
+about it. The full name and title of an investigator associated with a data
+set. </p>
+
+<p class="MsoNormal"><i style="">(Loaded automatically
+from the "Contact Person" field in the LME metadata file. You do not
+have to enter it again.)<o:p></o:p></i></p>
+
+<p class="i4">&nbsp;</p>
+
+<h4>Email</h4>
+
+<p class="i4">Short form for electronic mail.</p>
+
+<p class="MsoNormal"><i style="">(Loaded automatically
+from the " Contact Person " field in the LME metadata file. You do
+not have to enter it again.)<o:p></o:p></i></p>
+
+<p class="i4">&nbsp;</p>
+
+<h4>Phone</h4>
+
+<p class="i4">Complete telephone number. May have spaces or dashes embedded.</p>
+
+<p class="MsoNormal"><i style="">(Loaded automatically
+from the " Contact Person " field in the LME metadata file. You do
+not have to enter it again.)<o:p></o:p></i></p>
+
+<p class="i4">&nbsp;</p>
+
+<h3>Future Modifications and Plans:</h3>
+
+<p class="i3">Description of future plans-reprocessing, increasing temporal or
+spatial coverage, etc. For these data sets the Guide Document shall inform the
+user to call the Data Center User Services Office for up-to-date information on
+the status of the data (e.g., if there has been any changes in the operational
+procedures, etc.). If there are no such plans, state that processing is
+complete.</p>
+
+<h2><a name="data_characteristics"></a>2. Data Characteristics: </h2>
+
+<p class="MsoNormal"><a name="OLE_LINK2"><i style="">This
+section should include the following information, if applicable.<span style="">&nbsp; </span>The following sub-headings may optionally be
+used to organize your information.<ins cite="mailto:MHP" datetime="2004-02-09T09:28"><o:p></o:p></ins></i></a></p>
+
+<span style=""></span>
+
+<h3>Study Area<ins cite="mailto:MHP" datetime="2004-02-09T09:30"> </ins></h3>
+
+<p class="i3"><i style="">Describe the location of the
+terrain or space over which the data were collected.<o:p></o:p></i></p>
+
+<h4 style="margin-left: 0.5in; text-indent: -0.25in;"><span style="font-family: Symbol;">·</span><span style="font-size: 7pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Spatial Coverage:</h4>
+
+<p class="i4" style="margin-left: 27pt; text-indent: 9pt;">Indicate the total
+area covered by each measurement or set of measurements. Also give enough
+information to locate the geographic position of the measurement with suitable
+precision. Also include description of any spatial data gaps.</p>
+
+<h4 style="margin-left: 0.5in; text-indent: -0.25in;"><span style="font-family: Symbol; font-weight: normal;">·</span><span style="font-size: 7pt; font-weight: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Spatial
+Resolution:</h4>
+
+<p class="i3">Describe the extent to which the terrain has been resolved into
+constituent or elementary parts.</p>
+
+<h4 style="margin-left: 0.5in; text-indent: -0.25in;"><span style="font-family: Symbol; font-weight: normal;">·</span><span style="font-size: 7pt; font-weight: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Projection:</h4>
+
+<p class="i3">Describe the projection used in processing the data as appropriate.
+This generally applies to model/image/remote sensing or GIS data products
+processed to levels 3 and/or 4. Include all pertinent information --
+projection, datum, ellipsoid, units, and other parameters as needed.</p>
+
+<h4 style="margin-left: 0.5in; text-indent: -0.25in;"><span style="font-family: Symbol; font-weight: normal;">·</span><span style="font-size: 7pt; font-weight: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Grid
+Description:</h4>
+
+<p class="i3">Describe the method and procedure for gridding and/or binning the
+data.</p>
+
+<h3 style="margin-left: 0in;"><span style="">&nbsp;&nbsp;&nbsp; </span>Temporal Coverage:</h3>
+
+<p class="i3">Describe the period of time which the data collection covered, more
+or less continuously. Also includes description of temporal data gaps. For data
+that are continually being collected, the Guide shall specify time coverage by
+providing a begin date and then state to present. Provide one or more
+paragraphs describing the temporal characteristics of this data set. </p>
+
+<p class="i3">Describe the optimum and typical intervals between measurements
+during the periods of data collection. This can be the sampling frequency for
+an instrument and the intervals between measurement periods. It can also be the
+length of time it takes to collect an entire sample or scan.</p>
+
+<h3>Parameters or Variables:</h3>
+
+<p class="i3">Give a complete list of the names of the variables or parameters in
+the data set and the other descriptors. Include all measured, recorded, and
+calculated variables. If a variable is encoded, then describe the structure and
+define the code values.&nbsp; Describe variable coded values, missing values,
+or other information important to the understanding of measured or calculated
+variables.<span style="">&nbsp; </span>Complete information about a
+variable includes:</p>
+
+<p class="i4" style="margin-left: 0.75in; text-indent: -0.25in;"><span style="font-family: &quot;Courier New&quot;;">o</span><span style="font-size: 7pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b style="">Variable<o:p></o:p></b></p>
+
+<p class="i3" style="margin-left: 0.75in;"><span style="">&nbsp;</span>Name of the variable or parameter as it
+appears in the data file.</p>
+
+<h4 style="margin-left: 0.75in; text-indent: -0.25in;"><span style="font-family: &quot;Courier New&quot;; font-weight: normal;">o</span><span style="font-size: 7pt; font-weight: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Description</h4>
+
+<p class="i4" style="margin-left: 0.75in;">This is the definition of the variable as
+used in the data file.</p>
+
+<h4 style="margin-left: 0.75in; text-indent: -0.25in;"><span style="font-family: &quot;Courier New&quot;; font-weight: normal;">o</span><span style="font-size: 7pt; font-weight: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Units</h4>
+
+<p class="i4" style="margin-left: 0.75in;">Please use SI units or units commonly
+employed by scientific community.</p>
+
+<h4 style="margin-left: 0.75in; text-indent: -0.25in;"><span style="font-family: &quot;Courier New&quot;; font-weight: normal;">o</span><span style="font-size: 7pt; font-weight: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Instrument</h4>
+
+<p class="i4" style="margin-left: 0.75in;">This is the instrument which collected
+the data e.g., rain gauge, streamflow weir, etc.</p>
+
+<h4 style="margin-left: 0.75in; text-indent: -0.25in;"><span style="font-family: &quot;Courier New&quot;; font-weight: normal;">o</span><span style="font-size: 7pt; font-weight: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Range</h4>
+
+<p class="i4" style="margin-left: 0.75in;">This is the range of data values that
+exist for the data, both numeric and character values. A list of valid values
+for codes that need explaining should be entered into a footnote. Missing
+(fill) values should be included in this field and an explanation given in a
+footnote (e.g., if -999 is the missing value, that should be clearly indicated
+here.)</p>
+
+<p class="i3">&nbsp;</p>
+
+<h3>Data <span style="">Organization</span></h3>
+
+<p class="i3">Describe the organization of the data files, data file formats,
+variable descriptions, and a sample data record, if applicable.</p>
+
+<p class="i3">Indicate the format used for storing the data. This documentation
+may be in external files, which should be described here so that the curators
+of the archived data and documentation will know that they must provide a way
+for the ultimate user to access them.</p>
+
+<p class="i3">Provide a few lines of an actual data file. Cut and paste header
+rows and at least two data rows. Wrap lines as needed to fit document format
+and for effective presentation. May not be applicable to imagery data (binary).
+Inventory data files of available imagery products are appropriate.</p>
+
+<h2><a name="data_application_and_derivation"></a>3. Application and
+Derivation:</h2>
+
+<p class="MsoNormal"><i style="">This section should
+include the following information, if applicable.<span style="">&nbsp; </span>The following sub-headings may optionally be used to organize
+your information.<ins cite="mailto:MHP" datetime="2004-02-09T09:28"><o:p></o:p></ins></i></p>
+
+<h3>Typical Application of Data</h3>
+
+<p class="i3">Describe to what kind of research the data can be applied. Give
+instances where the data was used.</p>
+
+<h3>Theory of Measurements</h3>
+
+<p class="i3">Theoretical basis for the way in which the measurements were made
+for all data used in creating this data set.</p>
+
+<h3>Derivation Techniques and Algorithms</h3>
+
+<p class="i3">Describe any special techniques or algorithms used. This section
+contains detailed descriptions and references on models and derivation
+techniques.</p>
+
+<h4>Formulae:</h4>
+
+<p class="i5">Describe any special techniques or algorithms used. This section
+contains detailed descriptions and references on models and derivation
+techniques.</p>
+
+<p class="i5">List any formulae required in processing the data.</p>
+
+<h4>Processing Steps:</h4>
+
+<p class="i5">Indicate the sequence of processing steps that the PI applied to
+the data, that are available and are described in this document. If the data
+are processed internal to the instrumentation you do not need to describe that
+processing in great detail here. This section should concentrate on the
+processing that is actually done by the Principal Investigator.</p>
+
+<h4>Processing Changes:</h4>
+
+<p class="i5">For long-term, repetitive, or revised data sets; give a HISTORY of
+changes in the processing sequence. Information on changes to models should go
+in this section. If an earlier processed version is not in this Data collection
+and is no longer available then it should be described here as part of the
+HISTORY of changes. For higher-level products this begins with the steps to
+acquire the data for the products described in the document.</p>
+
+<h4>Special corrections/Adjustments:</h4>
+
+<p class="i5">These are the calculations that are above and beyond the routine/normal
+formulas and processing sequence described in 'Formulas' and 'Data Processing
+Sequence' sections above.</p>
+
+<h4>Calculated Variables:</h4>
+
+<p class="i5">List all calculated variables throughout the data processing and
+make sure their formulae are provided in 'Derivation Techniques/Algorithms'
+section.</p>
+
+<h4>Graphs and Plots Used in Analysis:</h4>
+
+<p class="i5">Provide or reference any graphs, plots, viewer images, or
+thumbnails associated with analysis of the data, if any.</p>
+
+<h2><a name="quality_assessment"></a>4. Quality Assessment:</h2>
+
+<p class="MsoNormal"><i style="">This section should
+include the following information, if applicable.<span style="">&nbsp; </span>The following sub-headings may optionally be used to organize
+your information.<ins cite="mailto:MHP" datetime="2004-02-09T09:28"><o:p></o:p></ins></i></p>
+
+<h3>Data Usage Guidance:</h3>
+
+<p class="i3">Provide one or more paragraphs describing data usage guidance
+activities.</p>
+
+<h4>Errors and Limitations:</h4>
+
+<h5>Error Sources:</h5>
+
+<p class="i5">Provide descriptions of data usage guidance under the following
+subheadings.</p>
+
+<p class="i5">Describe what factors of the instrument or environment may
+introduce errors in the observations. These errors are specific to the product
+that is in the data set being described.</p>
+
+<p class="i5">Note: For higher level data sets, this section DOES NOT include
+errors that occur in channels or parameters from the original instrument that
+are not used in creating the data set being described. For example, if TM
+channels 2-4 where used to create a higher level data set then errors in
+channels 1 and 5 would not be described in the document for that higher level
+data set, but errors for channels 2-4 would be described. </p>
+
+<h5>Limitations of the Data:</h5>
+
+<p class="i5">Are there cases or situations when the algorithm is unreliable?</p>
+
+<h5>Known Problems with the Data:</h5>
+
+<p class="i5">List known problems and discrepancies in the Data collection. If
+none have been reported, state that fact (i.e., None reported at this
+revision.)</p>
+
+<h4>Quality Assessment Activities</h4>
+
+<p class="i3">Provide one or more paragraphs describing quality assessment
+activities.</p>
+
+<h5>Validation by Submitter of Data:</h5>
+
+<p class="i5">Provide descriptions of data quality assessment activities under
+the following subheadings.</p>
+
+<p class="i5">Describe all efforts to validate the data by the submitter.</p>
+
+<h5>Confidence Level or Accuracy Judgment:</h5>
+
+<p class="i5">Subjective discussion of data quality. If the source of an error is
+unknown that should be explicitly stated in this section.</p>
+
+<h5>Measurement Error for Parameters:</h5>
+
+<p class="i5">Provide any quantitative error estimates.</p>
+
+<h5>Additional Quality Assessments:</h5>
+
+<p class="i5">Include any Quality Assessment at the Data Center.</p>
+
+<h5>Verification by Data Center:</h5>
+
+<p class="i5">Describe the verification procedures at the Data Center after
+transfer of data (this is especially important with electronic transfers).
+Provide verification statistics</p>
+
+<h3>Other Relevant Information about the Study:</h3>
+
+<p class="i3">Provide any additional information that will assist a user in
+understanding and interpreting the data.</p>
+
+<h2><a name="data_acquisition_materials_and_methods"></a>5. Acquisition
+Materials and Methods:</h2>
+
+<p class="MsoNormal"><i style="">This section should
+include the following information, if applicable.<span style="">&nbsp; </span>The following sub-headings may optionally be used to organize
+your information.<o:p></o:p></i></p>
+
+<p class="MsoNormal"><i style="">&nbsp;<o:p></o:p></i></p>
+
+<p class="MsoNormal"><i style="">This section will tend
+to have a different organization for remote sensing data (typically collected
+from an aerial or space-based platform) than for field measurements.<span style="">&nbsp; </span></i></p>
+
+<h2><a name="data_access"></a>6. Data Access:</h2>
+
+<p class="MsoNormal"><i style="">(Constructed
+automatically and modified as needed by the curator of the data set archive.)<o:p></o:p></i></p>
+
+<h3>Data Access:</h3>
+
+<p class="i3">This data is available through the Oak Ridge National Laboratory
+(ORNL) Distributed Active Archive Center (DAAC) or the EOS Data Gateway.</p>
+
+<h3>Data Archive Center:</h3>
+
+<h4>Contact for Data Center Access Information:</h4>
+
+<p class="i4">E-mail: uso@daac.ornl.gov<br>
+Telephone: +1 (865) 241-3952<br>
+FAX: +1 (865) 574-4665</p>
+
+<h3><a name="productavail">Product Availability:</a></h3>
+
+<p class="i3">Requested data can be provided electronically on the ORNL DAAC's
+anonymous FTP site or on various media including, CD-ROMs, 8-MM tapes, or
+diskettes.</p>
+
+<h2><a name="references"></a>7. References:</h2>
+
+<p class="i3">Provide references to Satellite/Instrument/Data Processing
+Documentation, Journal Articles and Study Reports, and Data Center/Database
+Management System Usage Documentation. </p>
+
+<p class="i3">Use the format used in leading science Journals. If these documents
+exist online, refer to Bibliography Styles from the University of Illinois
+Writers' Workshop On-Line Handbook. URL:
+http://www.english.uiuc.edu/cws/wworkshop/bibliostyles.htm. </p>
+
+<p class="MsoNormal" style="margin-left: 30.6pt;"><b>Related Publications<br>
+</b><i style="">(Loaded automatically from the "
+Related Publications" field in the LME metadata file. You do not have to
+enter it again.)<o:p></o:p></i></p>
+
+<p class="i5" style="margin-left: 0in;">&nbsp;</p>
+
+</div>
+
+</body></html>

@@ -1,0 +1,567 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" > 
+<HTML><!-- InstanceBegin template="../Templates/main_template_archive.dwt" codeOutsideHTMLIsLocked="false" --><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 2010 08:21:57 GMT" />
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Expires" content="0">
+<!-- InstanceBeginEditable name="doctitle" -->
+<TITLE>LBA-ECO Data Archive Preparation</TITLE>
+<style type="text/css">
+<!--
+.style1 {font-weight: bold}
+-->
+
+-->
+</style>
+<!-- InstanceEndEditable -->
+<meta name="orgcode" content="614.4">
+<meta name="description" content="Resource for LBA-ECO participants of the Large-Scale Biosphere Atmosphere Experiment in Amazonia">
+<META NAME="keywords" CONTENT="ecology, amazon, brazil, south america, amazon river, rainforest, earth science, science news, environment, global change">
+<meta name="rno" content="Kenneth.J.Ranson.1" >
+<meta name="content-owner" content="Elizabeth.S.Nelson.1" >
+<meta name="webmaster" content="Elizabeth.S.Nelson.1" >
+<link href="../lbaeco_new.css" rel="stylesheet" type="text/css">
+
+<!--cachestuff -->
+
+<!--endcachestuff -->
+<!--<script language="JavaScript" src="../javascript/ocdnm=eco_banner~html.js"></script>-->
+<!--<script language="JavaScript" src="../javascript/path_menu.js"></script> -->
+<!--<script language="JavaScript" src="../javascript/utilities.js"></script>-->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		banner_p3_up_22_banner_p3_up_31_over = newImage("../images/banner_p3_up_22-banner_p3_u.gif");
+		banner_p3_up_23_banner_p3_up_31_over = newImage("../images/banner_p3_up_23-banner_p3_u.gif");
+		banner_p3_up_23_banner_p3_up_32_over = newImage("../images/banner_p3_up_23-banner_p-26.gif");
+		banner_p3_up_24_banner_p3_up_31_over = newImage("../images/banner_p3_up_24-banner_p3_u.gif");
+		banner_p3_up_24_banner_p3_up_32_over = newImage("../images/banner_p3_up_24-banner_p-29.gif");
+		banner_p3_up_25_banner_p3_up_31_over = newImage("../images/banner_p3_up_25-banner_p3_u.gif");
+		banner_p3_up_25_banner_p3_up_32_over = newImage("../images/banner_p3_up_25-banner_p-32.gif");
+		banner_p3_up_26_banner_p3_up_32_over = newImage("../images/banner_p3_up_26-banner_p-35.gif");
+		banner_p3_up_27_banner_p3_up_31_over = newImage("../images/banner_p3_up_27-banner_p3_u.gif");
+		banner_p3_up_27_banner_p3_up_32_over = newImage("../images/banner_p3_up_27-banner_p-38.gif");
+		banner_p3_up_28_banner_p3_up_31_over = newImage("../images/banner_p3_up_28-banner_p3_u.gif");
+		banner_p3_up_29_banner_p3_up_31_over = newImage("../images/banner_p3_up_29-banner_p3_u.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function menuOn(menuItem) {
+ var element = document.getElementById(menuItem);
+ if (menuItem.substring(0,1) == "T") {
+    element.setAttribute("src",element.src.replace("_reg_","_over_"));
+ }  else {
+    element.setAttribute("class",element.getAttribute("class") + "_on");
+    var pat = /^\d+$/;
+    if (menuItem.substring(menuItem.length-1,menuItem.length).search(pat)==-1) {
+       // is a sub side menu so do image change as well
+       var imageItem = "i" + menuItem;
+       var ielement = document.getElementById(imageItem);
+       ielement.setAttribute("src",ielement.src.replace("spacer_trans","arrow_y"));
+       // do parent side menu change too!
+       var parentItem = menuItem.substring(0,2);
+       var pelement = document.getElementById(parentItem);
+       pelement.setAttribute("class",pelement.getAttribute("class") + "_on");
+    }
+ }
+ //document[imgName].src=eval(imgName + "_on.src");
+ //newbg = bg.substring(0, bg.indexOf(".gif")) + "_on.gif";
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<!-- End Preload Script -->
+</HEAD>
+<BODY  bgcolor="#FFFFFF" MM_preloadImages('../images/banner_p3_down_08.gif/buttons/buttons_over_14.gif/buttons_over_15.gif/buttons_over_16.gif/buttons_over_17.gif/buttons_over_18.gif/buttons_over_search.gif')>
+
+<table width="1033" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1033" valign="top">
+      <!-- InstanceBeginEditable name="Path Menu Nickname" --><script language="JavaScript">current_Item = "S3e";</script><!-- InstanceEndEditable -->
+      <!--<script language="JavaScript1.2">mmLoadMenus();</script>-->
+      <table width="765" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="765"top">
+            <table width=765 border=0 cellpadding=0 cellspacing=0 bgcolor="#EFF7E8">
+              <tr>
+                <td height=14 colspan="7" bgcolor="#FFFF99"><h5>NOTICE -- The LBA-ECO Project website is no longer being  supported.&nbsp; This archive is a snapshot, as it existed in 2013, of the  LBA-ECO website, maintained by NASA Goddard Space Flight Center, and now archived  at the ORNL DAAC.&nbsp; Links to external websites may be inactive. Final data products from the LBA project can be found at the <a href="http://daac.ornl.gov/LBA/lba.shtml" title="ORNL DAAC" target="_blank">ORNL DAAC</a>.</h5></td>
+              </tr>
+              <tr>
+                <td height=14 colspan="6" bgcolor="#FFFFFF"></td>
+                <td width="156" valign="bottom"> <img src="../images/images/banner_p3_up_07.gif" alt="banner" width=156 height=14></td>
+              </tr>
+              <tr>
+                <td width="164" valign="bottom" bgcolor="#000000"></td>
+                <td width="74" valign="bottom"> <img src="../images/images/banner_p3_up_09.gif"  alt="banner" width=74 height=18></td>
+                <td width="130" valign="bottom"> <img src="../images/images/banner_p3_up_10.gif"  alt="banner" width=130 height=18></td>
+                <td width="61" valign="bottom"> <img src="../images/images/banner_p3_up_11.gif" alt="banner"  width=61 height=18></td>
+                <td width="91" valign="bottom"> <img src="../images/images/banner_p3_up_12.gif"  alt="banner" width=91 height=18></td>
+                <td width="90" valign="bottom"> <img src="../images/images/banner_p3_up_13.gif"  alt="banner" width=89 height=18></td>
+                <td valign="bottom"> <img src="../images/images/banner_p3_up_14.gif"  alt="banner" width=156 height=18></td>
+              </tr>
+              <tr>
+                <td><img src="../images/images/banner_p3_up_15.gif" alt="banner" width=164 height=82></td>
+                <td> <img src="../images/images/banner_p3_up_16.gif" alt="banner" width=74 height=82></td>
+                <td> <img src="../images/images/banner_p3_up_17.gif" alt="banner" width=130 height=82></td>
+                <td> <img src="../images/images/banner_p3_up_18.gif" alt="banner" width=61 height=82></td>
+                <td> <img src="../images/images/banner_p3_up_19.gif" alt="banner" width=91 height=82></td>
+                <td> <img src="../images/images/banner_p3_up_20.gif" alt="banner" width=89 height=82></td>
+                <td> <img src="../images/images/banner_p3_up_21.gif" alt="banner" width=156 height=82></td>
+              </tr>
+              <tr>
+                <td bgcolor="#000000"> </td>
+                <td><a href="../index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','../images/buttons/buttons_over_14.gif',1)"><img src="../images/buttons/buttons_reg_14.gif" alt="home" id="T1" name="home" width="74" height="19" border="0"></a></td>
+                <td colspan="4"><a href="../about.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about','','../images/buttons/buttons_over_15.gif',1)"><img src="../images/buttons/buttons_reg_15.gif" alt="about" id="T2" name="about" width="80" height="19" border="0"></a><a href="../lib.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('library','','../images/buttons/buttons_over_16.gif',1)"><img src="../images/buttons/buttons_reg_16.gif" alt="library" id="T3" name="library" width="89" height="19" border="0"></a><a href="../new.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('new','','../images/buttons/buttons_over_17.gif',1)"><img src="../images/buttons/buttons_reg_17.gif" alt="news archive" id="T4" name="new" width="106" height="19" border="0"></a><a href="../cont.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contacts','','../images/buttons/buttons_over_18.gif',1)"><img src="../images/buttons/buttons_reg_18.gif" alt="contacts" id="T5" name="contacts" width="96" height="19" border="0"></a></td>
+                <td> <img src="../images/images/banner_p3_up_28.gif" alt="banner" name="banner_p3_up_28" width=156 height=20></td>
+              </tr>
+              <tr>
+                <td height="26" bgcolor="#99CC66"><br>
+                    <img border="0" src="../images/spacer_trans.gif" alt="spacer" width="164" height="8"><br>
+                </td>
+                <td colspan="5" bgcolor="#EFF7E8" align="right">
+                </td>
+                <td valign="top"><img src="../images/images/banner_p3_up_35.gif" alt="banner" width=128 height=19 border=0 align="top"></td>
+              </tr>
+            </table>
+            <table width="765" border="0" cellpadding="0" cellspacing="0" bgcolor="#EFF7E8">
+              <tr>
+                <td width=163 valign="top" bgcolor="#99CC66"><table width=100% border=0 cellpadding=1 cellspacing=0 bgcolor="#99CC66">
+                  <tr>
+                    <td colspan="2"><img border="0" src="../images/spacer_trans.gif" alt="" width="2" height="20"><a href="../invest.htm" title="Investigations Overview" class="p3_navtitle" id="S1">Investigations</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../invest.htm" title="Investigations Overview" class="p3_navtxt" id="S1h">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../cb/web/investigations/inv_abstracts.html" title="Abstracts and Profiles" class="p3_navtxt" id="S1a">Abstracts &amp; Profiles</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../invest/invest_pubs.htm" title="Publications" class="p3_navtxt" id="S1b">Publications</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../sites.htm" title="Research Sites" class="p3_navtxt" id="S1c">Research Sites</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../invest/invest_conf.htm" title="Meetings" class="p3_navtxt" id="S1d">Meetings</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../synthesis/index.htm" title="Synthesis Groups" class="p3_navtxt" id="S1e">Synthesis Groups</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../invest/invest_hydro.htm" title="LBA-HYDROMET" class="p3_navtxt" id="S1f">LBA-HYDROMET</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../invest/invest_air.htm" title="LBA-Air-ECO" class="p3_navtxt" id="S1g">LBA-Air-ECO</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../images/spacer_trans.gif" alt="" width="2" height="20"><a href="../logistics.htm" title="Logistics Overview" class="p3_navtitle" id="S2">Logistics</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8" ></td>
+                    <td><a href="../logistics.htm" title="Logistics Overview" class="p3_navtxt" id="S2a">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../logist/field.htm" title="Field Support" class="p3_navtxt" id="S2b">Field Support</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8" ></td>
+                    <td><a href="../logist/travel.htm" title="Travel" class="p3_navtxt" id="S2c">Travel </a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../logist/visa.htm" title="Visa" class="p3_navtxt" id="S2d">Visa</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../logist/ship.htm" title="Shipping" class="p3_navtxt"  id="S2e">Shipping</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../images/spacer_trans.gif" alt=""width="4" height="20"><a href="../data.htm" title="Data Overview" class="p3_navtitle" id="S3">Data</a></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="../data.htm" title="Data Overview" class="p3_navtxt" id="S3a">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt=""width="6" height="8""></td>
+                    <td><a href="http://daac.ornl.gov/LBA/lba.shtml" title="Find LBA Data" target="_blank" class="p3_navtxt" id="S3b">Find LBA Data </a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt=""width="6" height="8"></td>
+                    <td><a href="../data/data_check.htm" title="Investigator Checklist" class="p3_navtxt" id="S3c">Investigator Checklist </a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt=""width="6" height="8"></td>
+                    <td><a href="../data/data_proc.htm" title="Data Process &amp; Policy" class="p3_navtxt" id="S3d">Process &amp; Policy </a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt=""width="6" height="8" ></td>
+                    <td><a href="../data/data_doc.htm" title="Documentation &amp; Archive" class="p3_navtxt" id="S3e"> Documentation &amp; Archive</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../images/spacer_trans.gif" alt="" width="4" height="20"><a href="../edu.htm" title="Education &amp; Outreach Overview" class="p3_navtitle" id="S4">Training &amp; Education</a></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="../edu.htm" title="Education &amp; Outreach Overview" class="p3_navtxt" id="S4a">Overview</a></td>
+                  </tr>
+                  <tr>
+                    <td><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../out/out_activities.htm" title="Activities" class="p3_navtxt" id="S4b">Activities Summary</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td ><a href="../out/out_goals.htm" title="Goals" class="p3_navtxt" id="S4c">T&amp;E Goals</a></td>
+                  </tr>
+                  <tr>
+                    <td width="8"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                    <td><a href="../out/out_opp.htm" title="Opportunities" class="p3_navtxt" id="S4e">Student Opportunities</a></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="../out/out_folha.htm" title="Folha Amaz&ocirc;nica" class="p3_navtxt" id="S4f">Folha Amaz&ocirc;nica</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img border="0" src="../images/spacer_trans.gif" alt="" width="6" height="8"></td>
+                  </tr>
+                  <tr bgcolor="#99CC66">
+                    <td colspan="2"><span class="titlenav"> &nbsp;<br>
+                      <img border="0" src="../images/spacer_trans.gif" alt="" width="1" height="100%"></span></td>
+                  </tr>
+                </table>                  <img border="0" src="../images/spacer_trans.gif" alt="" width="164" height="5"></td>
+                <td width="10" valign="top" ><img border="0" src="../images/spacer_trans.gif"  alt="spacer" width="10" height="1"> </td>
+                <td width="100%" valign="top" bgcolor="#EFF7E8" >
+                  <!--header-->
+                  <table width="590" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top"><a name="skipnav"></a> <!-- InstanceBeginEditable name="content" --><table width="590" border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td valign="top">
+            <div align="left">
+              <p class="p3_pagehdr">Data Archive Preparation &amp; Documentation</p>
+              <p class="p3_tblsm"><a href="../data/data_arch.htm#overview">Overview<br />
+                </a><span class="p3_tblsm"><a href="../data/data_arch.htm#data">1 DATA</a><br />
+                <a href="../data/data_arch.htm#dataorg">&nbsp; 1.1 Data Organization<br />
+                </a>&nbsp;&nbsp;&nbsp;&nbsp; 1.1.1 Data granularity<br />
+              &nbsp;&nbsp;&nbsp;&nbsp; 1.1.2 What constitutes a data set<br />
+              &nbsp;&nbsp;&nbsp;&nbsp; 1.1.3 Archive directory structure <br />
+                        <a href="../data/data_arch.htm#archrules">&nbsp; 1.2 Archive &ldquo;Rules&rdquo;</a><br />
+                      &nbsp;&nbsp;&nbsp;&nbsp; 1.2.1 Data set titles <br />      
+                      &nbsp;&nbsp;&nbsp;&nbsp; 1.2.2 Use English <br />
+                      &nbsp;&nbsp;&nbsp;&nbsp; 1.2.3                      Data file contents<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp; 1.2.4 Data file formats <br />
+                </span><span class="p3_tblsm"><a href="../data/data_arch.htm#pubs">2 PUBLICATIONS</a><br />
+                          <a href="../data/data_arch.htm#pubfund">&nbsp; 2.1 LBA-ECO funding-related publications</a><br />
+                          <span class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>2.1.1 Refer to Investigation Abstracts and Profiles<br />
+                          <strong>&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;2.1.2&nbsp; To submit new publications or request changes to the publications list                        <br />
+                          <a href="../data/data_arch.htm#publink">&nbsp; 2.2 Linking publications to data sets</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2.1 Bibliographic Citations <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2.2&nbsp;The LBA-ECO Investigation Abstracts and Profiles web page<br />
+                          <a href="../data/data_arch.htm#doc">3 Data set Documentation</a></span> </p>
+            </div>
+            <div align="left">
+                <p><span class="abstractheader">OVERVIEW<a name="OVERVIEW"></a>:</span><br />
+                  <br />
+                    <span class="p3_tbltxt">The following information will guide you through the process of preparing your data sets for long-term archive. Objectives &amp; factors driving this process:</span></p>
+                <ul>
+                  <li class="p3_tbltxt">LBA-ECO final data, fully quality-assured and documented, must be archived at the ORNL DAAC, the designated archive for NASA&rsquo;s Earth Observing System Biogeochemical Dynamics data. The LBA-ECO Project Office will send copies of the final data and documentation to LBA DIS in Brazil for archive as well.<br />
+                  </li>
+                  <li class="p3_tbltxt">The ORNL DAAC is one member of a network of NASA archives comprising the Earth Observing System DIS (EOS DIS), and is committed to observing archive and metadata standards adopted by all participants of EOS DIS. </li>
+                </ul>
+              </div>
+            <p align="left" class="p3_tbltxt">The LBA-ECO science team and project management decided early in the project not to attempt to create an integrated, consolidated database containing all LBA-ECO data. Instead, the investigator has considerable latitude with regard to internal data management practices. Similarly, the LBA-ECO Project avoided a top-down approach with regard to data quality assurance. It is assumed that you have processed your data and applied quality assurance protocols consistent with those accepted and expected in your peer research community. Project-level standards exist only for metadata and documentation with an eye toward assimilating these data into the NASA archive system.</p>
+            <p align="left" class="p3_tbltxt">Keep in mind that these metadata and documentation requirements are designed to support NASA&rsquo;s data archive goal, i.e. to ensure availability and usefulness of the LBA-ECO data long after the project has ended. Everything you have done to date regarding your data has brought you closer to the project objective of archiving the LBA-ECO data in the NASA longterm archive system. For example, the metadata you registered earlier in the project that were used to facilitate searching in the project&rsquo;s metadata search engine, Beija-flor, will become part of the final data set documentation at the ORNL DAAC. Once you have prepared the final data set for archive and used the LBA Metadata Editor to complete all updates to the related metadata file, that metadata file will be used to generate the official data set document, i.e. the <strong>Data Set User&rsquo;s Guide</strong>, that will accompany your data set when downloaded from the archive. The Data Set User&rsquo;s Guide will help others understand your data (the experiment design, parameters measured, data collection conditions, instrumentation, calibration and QA procedures, and known problems) so that they can apply your data appropriately to new research questions and objectives.</p>
+            <p align="left" class="p3_tbltxt">This website is a resource to help you prepare data for archive. If you have questions or need assistance, contact archive@www.lbaeco.org</p>
+            <p align="left" class="p3_tbltxt">In addition, we encourage you to consult &quot;Best Practices for Preparing Ecological and Ground-Based Data Sets to Share and Archive&quot;<a href="http://daac.ornl.gov/PI/BestPractices-2010.pdf" title="Best Practices for Preparing Ecological and Ground-Based Data Sets to Share and Archive" ><br />
+              http://daac.ornl.gov/PI/BestPractices-2010.pdf</a></p>
+            <p align="left"><span class="abstractheader">1 DATA<a name="data"></a></span></p>
+            <p align="left"> <span class="abstractheader">1.1 Data Organization:<a name="dataorg"></a></span></p>
+            <p align="left"><strong>1.1.1 You may want to change the &ldquo;granularity&rdquo; of your data files</strong></p>
+            <p align="left" class="p3_tbltxt">Data file granularity is the unit defining what you include in a single data file, e.g.</p>
+            <ul>
+                <li>
+                  <div align="left" class="p3_tbltxt">All data for a single day, or month, or year</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">All data for an individual site (all years)</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">All data for all sites (all years)</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">All data of a given type for a day, or month, or year</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">All of the various types of data collected for a day, or month, or year</div>
+                </li>
+            </ul>
+            <div align="left" class="p3_tbltxt">You may want to combine the contents of many similar small-granule data files into a single data file, e.g. if you have hundreds of daily files in the same file format, it would be best to combine these files into monthly or annual files.</div>
+            <p align="left" class="p3_tbltxt">Do not try to combine data files containing different sets of variables into a single file. A data file should contain a header section and column headings that label each field contained in the data file. Do not change the headings or variables within the body of a file.</p>
+            <p align="left"><br />
+                  <strong>1.1.2 You may need to reconsider what constitutes a &ldquo;data set&rdquo;</strong></p>
+            <p align="left"> <span class="p3_tbltxt">What you considered a logical data set entity during the early stages of the project may no longer make sense. You probably now have data covering a longer time period, data from additional study sites, complementary data of different types for a particular intensively studied area, and preliminary data have probably been further processed, derived, integrated, and/or synthesized to generate unique, new products.</span></p>
+            <p align="left" class="p3_tbltxt">Each data set in the final archive will have a <strong>Data Set User&rsquo;s Guide</strong> to document it. The Data Set User&rsquo;s Guide is the web-ready, html-formatted documentation exported directly from your LME file. Each metadata file corresponds to one data set and to one Data Set User&rsquo;s Guide.</p>
+            <p align="center" class="p3_tbltxt">Data Set =&gt; LME file =&gt; Data Set User&rsquo;s Guide </p>
+            <p align="left" class="p3_tbltxt">In the early stages of your project, you may have created a separate metadata file to describe each type of data you were collecting or from each study site where you were working, resulting in several almost identical metadata files describing almost identical data sets, e.g. Soil temperature data at SiteA, Soil temperature data at SiteB&hellip;. Now that you are preparing to document the data for archive, you may want to consider using a single metadata file (and therefore a single Data Set User&rsquo;s Guide) to describe these closely related data and to associate the data files as a single data set. This may eliminate some repetitious cutting &amp; pasting and will produce a more cohesive and useful product at the same time.</p>
+            <p align="left" class="p3_tbltxt">Be cautioned, however, that if you attempt to combine too broad a range of data and consider it a &ldquo;data set&rdquo;, it may become difficult for you to produce a useful, descriptive document. Similarity of the data should be the determining factor in whether to consolidate or divide data sets. If you find yourself frequently cutting &amp; pasting from one metadata file to another, you could probably consider combining these into a single, related data set. If you find yourself uncertain what to put in the LME data set documentation fields, you may be trying to combine too many disparate data types into a &ldquo;one-size-fits-all&rdquo; data set.</p>
+            <p align="left" class="p3_tbltxt">For example, you could consider a data set to be all of the data collected during the same intensive field campaign&mdash;after all, they are related, but you would probably find it difficult to describe the data processing, data quality measures, instrument calibration, and data characteristics because there were several types of data collected and processed. It would make more sense to define the data sets according to types of data collected during the intensive field campaign, e.g. Data Set 1 = soil chemistry; Data Set 2= biomass; Data Set 3 = climate. </p>
+            <p align="left" class="p3_tbltxt"> Data sets could also be defined by:</p>
+            <ul>
+                <li>
+                  <div align="left" class="p3_tbltxt">Grouping similar data collected from a given study site, </div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">Grouping similar data collected from multiple sites, or</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">Association with a specific version of a model, e.g. code, input and output.</div>
+                </li>
+            </ul>
+            <p align="left" class="p3_tbltxt">Note that a data set can consist of one or more data files. It is not necessary for the data files to be identical in format or in content (as long as the files are internally consistent), but the data files should relate to each other and to the data set theme. </p>
+            <p align="left" class="p3_tbltxt"><strong>1.1.3 Archive Directory structure</strong></p>
+            <p align="left" class="p3_tbltxt">All LBA-ECO data will be archived within an LBA area on the ORNL DAAC ftp site. Within the LBA area, directories will be arranged by science theme (based on the investigation team ID), and each data set will reside in its own subdirectory within the science theme, e.g.</p>
+            <blockquote>
+                <p align="left" class="p3_tbltxt"><strong>ORNL DAAC ftp site &gt; LBA data &gt; Science Theme &gt; Data Set</strong></p>
+                <blockquote>
+                  <p align="left" class="p3_tbltxt"><strong>ftp://daac.ornl.gov/data/lba/atmos_chemistry<br />
+                          ftp://daac.ornl.gov/data/lba/carbon_dynamics<br />
+                          ftp://daac.ornl.gov/data/lba/human_dimensions<br />
+                          ftp://daac.ornl.gov/data/lba/land_use_land_cover_change<br />
+                          ftp://daac.ornl.gov/data/lba/nutrient_dynamics<br />
+                          ftp://daac.ornl.gov/data/lba/physical_climate<br />
+                          ftp://daac.ornl.gov/data/lba/surf_hydro_and_water_chem<br />
+                          ftp://daac.ornl.gov/data/lba/trace_gases</strong></p>
+                </blockquote>
+            </blockquote>
+            <p align="left" class="p3_tbltxt">As mentioned, all files related to each data set will be contained within a subdirectory reserved for that data set. Each data set directory will contain 2 subdirectories:</p>
+            <ul>
+                <li>
+                  <div align="left" class="p3_tbltxt"><strong>/data</strong> (containing all data files and/or data subdirectories) and</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt"><strong> /comp</strong> (containing &ldquo;companion&rdquo; files, i.e. the additional information that will help a user understand and utilize the data set.</div>
+                </li>
+              </ul>
+            <div align="left">
+                <p class="p3_tbltxt">                      The data set will be given a unique data set ID (a concatenation of Team ID + Data Set Code). This unique Data Set ID will be used as the directory name.</p>
+                <p align="left" class="p3_tbltxt">Example: CD07_GOES_L3_Gridded_SRB</p>
+                <ul>
+                  <li class="p3_tbltxt"><strong>/data</strong> subdirectory contains all actual data files\</li>
+                  <li class="p3_tbltxt"><strong>/comp</strong> subdirectory contains all &quot;companion&quot; files: read-me files, Data Set User&rsquo;s Guide, and other supporting information</li>
+                  </ul>
+                <p class="p3_tbltxt">If you have a preferred directory structure for your data, this structure can be preserved in the archived location at the ORNL DAAC, as long as the /data and /comp conventions are preserved</p>
+              <span class="p3_tbltxt">Remember to provide the necessary information in your Data Set User&rsquo;s Guide (Data Characteristics section) to help a user understand the naming conventions you've used in your data directories, particularly if you have coded your file names. </span></div>
+            <p align="left"><span class="abstractheader">1.2 Archive &ldquo;Rules&rdquo;<a name="archrules"></a></span></p>
+            <p align="left" class="p3_tbltxt"><strong>1.2.1&nbsp; Data set titles must conform to NASA and ORNL DAAC guidelines:</strong></p>
+            <ul>
+                <li>
+                  <div align="left" class="p3_tbltxt">Title must be 85 characters or less </div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">Title must begin with &ldquo;LBA-ECO&rdquo;, followed by the team ID, e.g. LBA-ECO CD-99 </div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">The remainder of the 85 characters should include (a) the type of data, (b) study area, site, or region, and (c) time frame, if any of these are applicable, as space allows.<br />
+                    <br />
+                      LBA-ECO CD-99 CO2 Flux in Undisturbed Forests in the Amazon Basin, Brazil, 2004</div>
+                </li>
+            </ul>
+            <p align="left" class="p3_tbltxt"><strong> 1.2.2 Data and supporting documentation, read-me files, etc. must be written in English.</strong></p>
+            <p align="left" class="p3_tbltxt">This includes the contents of data files as well, e.g. data values, header information, and column labels. Information may also be provided in Portuguese if you choose to do so.</p>
+            <p align="left" class="p3_tbltxt"><strong>1.2.3 Data file contents</strong></p>
+            <p align="left" class="p3_tbltxt">You must provide information to help a user understand the content of your data files, e.g. the variables included, their labels, the organization of columns in your data files, units of measurement, possible values (for coded fields), and interpretations of any coded values. This information should be provided as header information included in the data file itself, e.g. the first few lines of a spreadsheet. A sample of the data record should be provided in the Data Set User&rsquo;s Guide, Data Characteristics section. </p>
+            <p align="left" class="p3_tbltxt">Avoid using special characters in column headings and data values if at all possible. Users all over the world will be accessing these data files and different computers may misinterpret special characters, causing errors in the data.</p>
+            <p align="left" class="p3_tbltxt">File contents should be internally consistent. Provide column headings to describe every data column and do not switch to a different set of column headings within the same file. If you have a different set of columns to report, they should be included in a separate data file. </p>
+            <p align="left" class="p3_tbltxt">Do not leave a missing value blank. Missing numeric values should be represented by a consistent placeholder, preferably &ndash;9999 (notation recommended by ORNL) and note in the documentation what convention you have chosen to use.</p>
+            <p align="left" class="p3_tbltxt">If your data contain data classes, e.g. site characterization classes, size classes, soil composition, or other coded information, you must provide the user information to decode the values.</p>
+            <p align="left" class="p3_tbltxt"><strong>1.2.4 Data file formats</strong></p>
+            <p align="left" class="p3_tbltxt">Tabular data should be character-delimited ASCII files, e.g. comma delimited, but you should avoid using a delimiter that is likely to be contained in any of your data values.</p>
+            <ul>
+                <li>
+                  <div align="left" class="p3_tbltxt"> If you have spreadsheets that may lose valuable information if exported to ASCII, you may include both versions of the data in the archive.</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">If your spreadsheets contain multiple worksheets, you should export each worksheet to ASCII.</div>
+                </li>
+            </ul>
+            <p align="left" class="p3_tbltxt">Image data should be provided in non-proprietary data formats, e.g. ASCII grid, and the necessary projection files must be included. Most proprietary software packages provide utilities that will export data to non-proprietary data exchange formats. However, the project office archive team is working with the ORNL DAAC to develop a list of archive-friendly formats. This information will be posted on the LBA-ECO website as soon as it becomes available.</p>
+            <p align="left"><br />
+                  <span class="abstractheader"><a name="pubs"></a>2 PUBLICATIONS</span></p>
+            <p align="left" class="abstractheader">2.1 LBA-ECO funding-related publications<a name="pubfund"></a></p>
+            <p align="left"> <span class="p3_tbltxt">2.1.1 Refer to Investigation Abstracts and Profiles [<a href="../cb/web/investigations/inv_abstracts.html">URL</a>] to see that all of your LBA-ECO related publications are included in the listing.</span></p>
+            <p align="left" class="p3_tbltxt"><strong>2.1.2 To submit new publications or request changes to the publications list,</strong> please send an e-mail to the Website Administrator. If you have a pdf of the publication, send that, too.</p>
+            <p align="left" class="p3_tbltxt"><strong>2.2 Linking publications to data sets<a name="publink"></a></strong></p>
+            <p align="left" class="p3_tbltxt"><strong>2.2.1</strong> <strong>Bibligraphic citations</strong><br />
+    Are any of these publications related to the data set(s) you are preparing for archive? If so, add the bibliographic citation to the LME metadata in the section &ldquo;Related Publications&rdquo;. </p>
+            <p align="left" class="p3_tbltxt"><strong>2.2.2</strong> <strong>The LBA-ECO Investigation Abstracts and Profiles web page</strong></p>
+            <p align="left"><span class="p3_tbltxt"> for each team provides a list of all data sets registered by each science team and shows any &ldquo;Related Publications&rdquo; that have been linked to the data sets (section 2.2.1 above). You may view a matrix display of the relationships between your team&rsquo;s publications and data sets from each project's profile.<br />
+            </span>                </p>
+            <p align="left" class="abstractheader">3 DATA SET DOCUMENTATION <a name="doc"></a></p>
+            <p align="left" class="p3_tbltxt">All LBA-ECO final data will be archived at the ORNL DAAC as well as within LBA DIS in Brazil. The ORNL DAAC is part of a network of data centers chosen to archive NASA&rsquo;s data collections and to ensure the availability and usefulness of the data for 20 years into the future. To guarantee long-term usefulness, each data set must be accompanied by adequate documentation to help users understand the data long after the project is over. </p>
+            <p align="left" class="p3_tbltxt">To help you produce this documentation, i.e. the Data Set User&rsquo;s Guide, we have added a relatively new section to the LBA Metadata Editor. Open the LME file for your data set and scroll down the page and you will see the section &quot;Data Set Documentation&quot;. If you click on the &quot;+&quot; sign to expand the section, you will see the subsections:</p>
+            <ul>
+                <li>
+                  <div align="left" class="p3_tbltxt">Data_Set_Overview</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">Data_Characteristics </div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">Data_Application_and_Derivation</div>
+                </li>
+                <li>
+                 Quality_Assessment
+                </li>
+                <li>Acquisition Materials and Methods</li>
+                <li>
+                  <div align="left" class="p3_tbltxt">Data_Access (For use by archive personnel only) (ignore this one &ndash; the DIS staff will take care of it)</div>
+                </li>
+                <li>
+                  <div align="left" class="p3_tbltxt">References</div>
+                </li>
+            </ul>
+            <p align="left" class="p3_tbltxt">Each of these fields is defined in the glossary (click on the field name in LME to access its glossary text). </p>
+            <p align="left" class="p3_tbltxt">The LME has the capability to output a Data Set User&rsquo;s Guide, formatted nicely for printing or posting on the web. The information in the User&rsquo;s Guide is pulled directly from the information you have entered in the LME metadata field. It also prompts you as the user to supplement where information was missing or insufficient. </p>
+            <p align="left" class="p3_tbltxt">To view the User&rsquo;s Guide as it is being built, click the button at the top of the LME page where you see &quot;Preview as Template for Data Set Doc&quot;. As the button indicates, a click will open a new window that displays a formatted web page containing the relevant documentation information contained from the LME data entry page. If you have not provided information in any of the required fields, you will see in red text instructions to provide the needed information. It is advisable to provide as much of this required information as you can within the LME editor. Note that you can cut &amp; paste from other documents into the LME data entry screen, and even do some basic html formatting using the LME.</p>
+            <p align="left" class="p3_tbltxt">At this point, you have 2 options:</p>
+            <p align="left"> <span class="p3_tbltxt"><strong>Option 1</strong> - If the information you'd like to include in the Data Set User&rsquo;s Guide is straightforward and is adequately represented by the document template produced by the LME / Documentation section, click your browser's &quot;File&quot; option and select &quot;SAVE PAGE AS&quot; and save the html file to your local system for your records. You should then notify us by email (archive@www.lbaeco.org) that you've completed your documentation and the <strong>data set is ready for archive</strong>. You will also need to indicate where the final data and companion files can be accessed. Merilyn will then access your LME file, export the Data Set User&rsquo;s Guide, and work with the ORNL DAAC staff to complete the archive process for your data set.<br />
+                  <strong>Option 2 </strong>- If you would like to incorporate graphs, jpgs, or tables into your data set document or do other html formatting, you may prefer to import the Data Set User&rsquo;s Guide into an html editor on your desktop. If you choose this option, click your browser's &quot;File&quot; option and select &quot;SAVE PAGE AS&quot; and save the html file to your local system. You can then use your preferred html editor to complete the editing. When you&rsquo;re satisfied with the Data Set User&rsquo;s Guide, send Merilyn Gentry (archive@www.lbaeco.org) a copy of the completed data set document as an email attachment, and let us know where we can access the final data and companion files.</span></p>
+            <p align="left" class="p3_tbltxt">After your data set and supporting information have been archived at the DAAC, LBA-ECO Project Office staff will ensure that a copy of the final data &amp; documentation is sent to the LBA DIS for long-term archive.</p>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></td>
+                    </tr>
+                  </table>
+                  <!--footer-->
+                </td>
+              </tr>
+            </table>
+            <table width="766" border="0" cellpadding="0" cellspacing="0">
+              <tr align="center">
+                <td height="5" colspan="3"><hr></td>
+              </tr>
+              <tr>
+                <td colspan="3" height="15">
+                  <p align="center"> <a href="#skipnav"><img border="0" src="../images/spacer_trans.gif" alt="Skip navigation links" width="1" height="1"></a><span class="p3_navarrow"><a href="../index.html" title="Home">HOME</a> | <a href="../about.htm" title="About">ABOUT</a> | <a href="../lib.htm" title="Library">LIBRARY</a> | <a href="../new.htm" title="News Archive">NEWS ARCHIVE</a> | <a href="../cont.htm" title="Contacts">CONTACTS</a> | <a href="../invest.htm" title="Investigations">INVESTIGATIONS</a> | <a href="../logistics.htm" title="Logistics">LOGISTICS</a> | <a href="../data.htm" title="Data">DATA</a> |<a href="../edu.htm" title="Education &amp; Outreach">TRAINING &amp; EDUCATION</a></span><br>
+                   
+                  </td>
+              </tr>
+              <tr>
+                <td width="33%"> <div align="center"><a href="http://www.nasa.gov/" target="_blank"><img border="0" src="../images/nasalogo-small.gif" alt="NASA logo" width="58" height="50"></a>                  
+                  </div>
+                 </td>
+                <td width="34%"><div align="center"><a href="http://daac.ornl.gov/" target="_blank"><img height="100" width=97 src="../images/ornl_daac_transp_bkg.png" alt="ORNL DAAC"></a></div></td>
+                <td width="33%"><div align="center"><a href="http://get.adobe.com/reader/" target="_blank"><img border="0" src="../images/getacro.gif" alt="Get Acrobat Reader"  width="88" height="31"></a>                </div></td>
+              </tr>
+              <tr>
+                <td colspan="3" height="41">
+                  <p align="center" class="side-bar"><a href='mailto:uso@daac.ornl.gov' title="Contact ORNL DAAC">Contact ORNL DAAC</a><br>
+                    <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" title="Privacy Policy and Important Notices" target="_blank">Privacy Policy &amp; Important Notices</a><br>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+</BODY>
+<!-- InstanceEnd --></HTML>
